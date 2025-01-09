@@ -1,0 +1,18 @@
+{
+ "author": "TGU Limited",
+ "description": "Simple FAT scanning UK FM Stations",
+ "updated": "21 November 2024",
+ "License": "MIT",
+ "rate": 1024000,
+ "gain": "auto",
+ "bands": [
+  {
+   "id": 382,
+   "lf": 89000000,
+   "uf": 102000000,
+   "dn": "Amateur",
+   "sb": 100000,
+   "db": -10
+  }
+ ]
+}

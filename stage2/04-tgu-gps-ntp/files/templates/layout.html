@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/layout.css">
+</head>
+<body>
+    <header>
+        <img id="logo_image" src="/static/logo.png" alt="TGU Logo" width="150px"> 
+        <div id="logo_div">
+            <span><a href="/">Home</a></span>
+            <span><a href="/fat">FAT</a></span>
+            <span><a href="/scanner">Scanner</a></span>
+            <span><a href="/about">About</a></span>
+        </div>
+    </header>
+
+    
+    <div class="div_page_tile">
+    {{title}}
+    </div>
+
+    <section id=page_section>
+        {{ load_file(file) }}
+    </section>
+
+</body>
+</html>

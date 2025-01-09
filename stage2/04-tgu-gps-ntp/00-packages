@@ -1,0 +1,15 @@
+vim
+pipenv
+gpsd
+pps-tools
+gpsd-clients
+ntpsec
+shorewall
+git
+build-essential
+cmake
+libusb-1.0-0-dev
+libopenblas-dev
+rtl-sdr
+ffmpeg
+sqlite
