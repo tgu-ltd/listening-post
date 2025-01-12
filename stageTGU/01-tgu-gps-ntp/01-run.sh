@@ -261,13 +261,19 @@ EOF
 FILE="${ROOTFS_DIR}/etc/ntpsec/ntp.conf"
 DRIFT="${ROOTFS_DIR}/var/lib/ntpsec/ntp.drift"
 LOGDIR="${ROOTFS_DIR}/var/log/ntpsec"
-mkdir $LOGDIR
+
+if [ ! -d $LOGDIR ]; then
+    mkdir $LOGDIR
+fi
+
 if [ -e "$DRIFT" ]; then
     touch $DRIFT
 fi
+
 if [ -e "$FILE" ]; then
     touch $FILE
 fi
+
 cat << EOF > $FILE
 driftfile $DRIFT
 leapfile /usr/share/zoneinfo/leap-seconds.list
@@ -402,6 +408,7 @@ SERVICE="/etc/systemd/system/firstboot.service"
 SERVICELN="/etc/systemd/system/multi-user.target.wants/firstboot.service"
 SERVICEFILE="${ROOTFS_DIR}${SERVICE}"
 
+
 if [ -e "$FBROOTFILE" ]; then
     touch $FBROOTFILE
     chmod +x $FBROOTFILE
@@ -410,6 +417,8 @@ fi
 if [ -e "$SERVICEFILE" ]; then
     touch $SERVICEFILE
 fi
+
+
 
 
 cat << EOF > $FBROOTFILE
@@ -441,7 +450,9 @@ WantedBy=multi-user.target
 EOF
 
 on_chroot << EOF
-ln -s ${SERVICE} ${SERVICELN}
+if [ ! -e "$SERVICELN" ]; then
+    ln -s ${SERVICE} ${SERVICELN}
+fi
 EOF
 
 echo "First boot script written"
@@ -464,10 +475,20 @@ ROOTWWWRFDIR="${ROOTFS_DIR}${WWWRFDIR}"
 ROOTRFSERVICEFILE="${ROOTFS_DIR}${SERVICE}"
 ROOTRFSERVICEFILELN="${ROOTFS_DIR}${SERVICELN}"
 
-mkdir "${ROOTWWWRFDIR}" 
-rm files/scan_results/scan_*
-cp -rv files/* "${ROOTWWWRFDIR}/"
+
+if [ ! -d "${ROOTWWWRFDIR}"  ]; then
+    mkdir "${ROOTWWWRFDIR}" 
+fi
 chmod -R 644 "${ROOTWWWRFDIR}"
+
+
+SCANRESDIR="files/scan_results"
+if [ ! -d "${SCANRESDIR}"  ]; then
+    # mkdir "${SCANRESDIR}"
+    rm files/scan_results/scan_*
+fi
+cp -rv files/* "${ROOTWWWRFDIR}/"
+
 
 if [ -e "$ROOTSERVICEFILE" ]; then
     touch $ROOTSERVICEFILE
@@ -492,16 +513,24 @@ Restart=on-failure
 WantedBy=multi-user.target
 EOF
 
+
 on_chroot << EOF
-ln -s ${SERVICE} ${SERVICELN}
+if [ ! -e "$SERVICELN" ]; then
+    ln -s ${SERVICE} ${SERVICELN}
+fi
 export SHELL=/bin/bash
 cd ${WWWRFDIR}
+
+if [ -d "./venv"  ]; then
+    sudo rm -rf ./venv
+fi
+
 python3 -m venv ./venv
+
 ./venv/bin/pip3 install psutil
 ./venv/bin/pip3 install jinja2
 ./venv/bin/pip3 install pyrtlsdr
 ./venv/bin/pip3 install numpy
-
 EOF
 
 echo "RF Web Scan Service written"
@@ -514,6 +543,7 @@ echo "RF Web Scan Service written"
 #######################################################
 
 FILE="${ROOTFS_DIR}/etc/rc.local"
+
 cat << EOF > $FILE
 #!/bin/sh -e
 (sleep 60 && sudo systemctl restart gpsd) &
@@ -523,6 +553,7 @@ cat << EOF > $FILE
 
 exit 0
 EOF
+
 chmod +x $FILE
 echo "RC Local script written"
 
