@@ -1,0 +1,12 @@
+# TGU Zero
+
+This Stage is for building a Pi Zero with the following attributes
+
+* Stage 2 ( Headless )
+* GPSD ( See GPS Pinout )
+* NTPSEC ( )
+* DNSMasq using network manager 
+* Hostapd using network manager on wlan0
+* Shorewall, routes internet traffice through eth0 if connected to the internet
+* SDR tools
+* HTTP RF Station web interface

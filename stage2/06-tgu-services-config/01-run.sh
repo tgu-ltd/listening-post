@@ -1,6 +1,11 @@
-#!/bin/bash
+#!/bin/bash -e
 
-set -e
+
+###
+### TGU Specific 
+###
+### Need to put this into another/global file 
+###
 
 DNSMASQ_IP="10.10.17.1"
 DNSMASQ_NET="10.10.17.0/24"
@@ -9,188 +14,10 @@ DNSMASQ_END="10.10.17.255"
 HOSTAPD_PASS="gps@pi!9"
 HOSTAPD_NAME="stratum1pi"
 
-#######################################################
-#
-# CMDLINE.TXT
-#
-#######################################################
-CMDLINE_TXT="${ROOTFS_DIR}/boot/firmware/cmdline.txt"
-echo "console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 fsck.repair=yes rootwait bcm2708.pps_gpio_pin=18" > "$CMDLINE_TXT" 
-echo "cmdline.txt written"
 
-#######################################################
-#
-# CONFIG.TXT
-#
-#######################################################
-CONFIG_TXT="${ROOTFS_DIR}/boot/firmware/config.txt"
-echo "" >> "$CONFIG_TXT"
-echo "enable_uart=1" >> "$CONFIG_TXT"
-echo "dtoverlay=pi3-disable-bt-overlay" >> "$CONFIG_TXT"
-echo "dtoverlay=pi3-miniuart-bt" >> "$CONFIG_TXT"
-echo "dtoverlay=disable-bt" >> "$CONFIG_TXT"
-echo "dtoverlay=pps-gpio,gpiopin=18" >> "$CONFIG_TXT"
-echo "config.txt written"
-
-echo "####################################################"
-echo "#"
-cat $CONFIG_TXT
-echo "#"
-echo "####################################################"
-
-
-#######################################################
-#
-# /ETC/MODULES
-#
-#######################################################
-MODULES_TXT="${ROOTFS_DIR}/etc/modules"
-if [ -f "$MODULES_TXT" ]; then
-    echo "pps-gpio" >> "$MODULES_TXT"
-else
-    echo "/etc/modules not found!"
-    exit 1
-fi
-echo "modules written"
-
-
-
-#######################################################
-#
-# Network Manager Setup ( IP's dnsmasq, hostapd)
-#
-#######################################################
-
-#######################################################
-###  Eth0
-FILE="${ROOTFS_DIR}/etc/NetworkManager/system-connections/eth0.nmconnection"
-if [ -e "$FILE" ]; then
-    touch $FILE
-fi
-
-cat << EOF > $FILE
-[connection]
-id=eth0
-type=ethernet
-interface-name=eth0
-autoconnect=true
-
-[ipv4]
-method=auto
-never-default=false
-
-[ipv6]
-method=disabled
-EOF
-echo "Eth0 interface written"
-
-#######################################################
-###  Wlan0
-FILE="${ROOTFS_DIR}/etc/NetworkManager/system-connections/wlan0.nmconnection"
-if [ -e "$FILE" ]; then
-    touch $FILE
-fi
-cat << EOF > $FILE
-[connection]
-id=wlan0
-#uuid=d7761840-f729-11ec-b939-1252ac150002
-type=wifi
-interface-name=wlan0
-autoconnect=true
-
-[wifi]
-ssid=stratum1
-mode=ap
-band=bg
-channel=6
-
-[wifi-security]
-key-mgmt=wpa-psk
-psk=$HOSTAPD_PASS
-
-[ipv4]
-method=shared
-address1=$DNSMASQ_IP/24
-
-[ipv6]
-method=disabled
-EOF
-echo "Wlan0 interface written"
-
-
-#######################################################
-###  Connection Permissions
-chmod 600 ${ROOTFS_DIR}/etc/NetworkManager/system-connections/*.nmconnection
-
-
-#######################################################
-###  Dnsmasq
-FILE="${ROOTFS_DIR}/etc/NetworkManager/dnsmasq.d/dnsmasq.conf"
-if [ -f "$FILE" ]; then
-    touch "$FILE"
-fi
-
-cat << EOF > $FILE
-listen-address=127.0.0.1,$DNSMASQ_IP
-resolv-file=/etc/resolv.conf
-dhcp-authoritative
-interface=wlan0
-except-interface=eth0
-addn-hosts=/etc/hosts
-bind-interfaces
-domain-needed
-bogus-priv
-expand-hosts
-domain=anant
-local=/.anant/
-cache-size=1000
-dhcp-range=lan,$DNSMASQ_START,$DNSMASQ_END,2h
-dhcp-option=lan,121,$DNSMASQ_NET,$DNSMASQ_IP
-dhcp-option=lan,option:ntp-server,$DNSMASQ_IP
-EOF
-echo "dnsmasq written"
-
-
-
-#######################################################
-###  NetowrkManager.conf
-FILE="${ROOTFS_DIR}/etc/NetworkManager/NetworkManager.conf"
-if [ -f "$FILE" ]; then
-    touch "$FILE"
-fi
-
-
-cat << EOF > $FILE
-[main]
-plugins=ifupdown,keyfile
-
-[ifupdown]
-#managed=false
-managed=true
-
-[device]
-#wifi.scan-rand-mac-address=no
-
-EOF
-echo "Network Manager written"
-
-
-
-#######################################################
-#
-# DHCPCLIENT ( Accept default route )
-#
-#######################################################
-
-FILE="${ROOTFS_DIR}/etc/dhcp/dhclient.conf"
-sed -i 's/rfc3442-classless-static-routes,//g' $FILE
-
-
-#######################################################
-#
-# GPSD
-#
-#######################################################
+###
+### GPSD
+###
 FILE="${ROOTFS_DIR}/etc/default/gpsd"
 if [ -e "$FILE" ]; then
     touch $FILE
@@ -242,11 +69,10 @@ EOF
 echo "gpsd written"
 
 
-#######################################################
-#
-# NTPSEC
-#
-#######################################################
+
+### 
+### NTPSEC
+### 
 FILE="${ROOTFS_DIR}/etc/default/ntpsec"
 if [ -e "$FILE" ]; then
     touch $FILE
@@ -291,12 +117,10 @@ echo "ntpsec written"
 
 
 
-#######################################################
-#
-# SHOREWALL
-#
-#######################################################
 
+###
+### SHOREWALL
+###
 FILE="${ROOTFS_DIR}/etc/default/shorewall"
 sed -i 's/startup=0/startup=1/g' $FILE
 
@@ -376,12 +200,10 @@ EOF
 echo "shorewall written"
 
 
-#######################################################
-#
-# ENABLE SERVICES
-#
-#######################################################
 
+###
+### ENABLE SERVICES
+###
 on_chroot << EOF
 systemctl enable gpsd
 systemctl enable ntpsec
@@ -392,16 +214,14 @@ echo "Services Enabled"
 
 
 
-#######################################################
-#
-# First Boot Service
-#   * Resize root file sytem
-#   * Kills whiptail
-#   * Remove firstboot service
-#   * Reboot for resize to take effect
-#
-#######################################################
 
+###
+### First Boot Service
+###   * Resize root file sytem
+###   * Kills whiptail
+###  * Remove firstboot service
+###  * Reboot for resize to take effect
+###
 FBFILE="/etc/default/firstboot.sh"
 FBROOTFILE="${ROOTFS_DIR}${FBFILE}"
 SERVICE="/etc/systemd/system/firstboot.service"
@@ -417,8 +237,6 @@ fi
 if [ -e "$SERVICEFILE" ]; then
     touch $SERVICEFILE
 fi
-
-
 
 
 cat << EOF > $FBROOTFILE
@@ -455,14 +273,11 @@ if [ ! -e "$SERVICELN" ]; then
 fi
 EOF
 
-echo "First boot script written"
 
 
-#######################################################
-#
-# RF Web Seervice ( Python web service for RF Canning results )
-#
-#######################################################
+###
+### RF Web Seervice ( Python web service for RF Canning results )
+###
 WWWRF="wwwrf"
 WWWRFAPP="http-server.py"
 WWWRFDIR="/opt/${WWWRF}"
@@ -533,33 +348,23 @@ python3 -m venv ./venv
 ./venv/bin/pip3 install numpy
 EOF
 
-echo "RF Web Scan Service written"
 
 
-#######################################################
-#
-# RC Local ( Need to restart ntpsec to make pps0 work. Why?)
-#
-#######################################################
-
+###
+### RC Local ( Need to restart ntpsec to make pps0 work. Why?)
+###
 FILE="${ROOTFS_DIR}/etc/rc.local"
 
 cat << EOF > $FILE
 #!/bin/sh -e
-(sleep 60 && sudo systemctl restart gpsd) &
+(sleep 40 && sudo systemctl restart ntpsec) &
+(sleep 42 && sudo systemctl restart gpsd) &
 (sleep 70 && sudo systemctl restart ntpsec) &
-(sleep 90 && sudo systemctl restart ntpsec) &
-(sleep 110 && sudo systemctl restart ntpsec) &
-
+(sleep 72 && sudo systemctl restart gpsd) &
 exit 0
 EOF
 
 chmod +x $FILE
-echo "RC Local script written"
 
 
-echo "########################################"
-echo "# END OF TGU Config "
-echo "# Have a good one "
-echo "########################################"
 
