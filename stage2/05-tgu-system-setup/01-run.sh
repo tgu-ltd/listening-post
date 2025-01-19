@@ -1,11 +1,6 @@
 #!/bin/bash -e
 
-
-
-TOP_DIR="$(dirname "$(dirname "$(dirname "${BASH_SOURCE[0]}")")")"
-
-echo $TOP_DIR
-
+source ../stage-vars.sh
 
 ###
 ### TGU Specific variables
@@ -13,12 +8,12 @@ echo $TOP_DIR
 ### Need to put this into another/global file 
 ###
 
-DNSMASQ_IP="10.10.17.1"
-DNSMASQ_NET="10.10.17.0/24"
-DNSMASQ_START="10.10.17.2"
-DNSMASQ_END="10.10.17.255"
-HOSTAPD_PASS="gps@pi!9"
-HOSTAPD_NAME="stratum1pi"
+#DNSMASQ_IP="10.10.17.1"
+#DNSMASQ_NET="10.10.17.0/24"
+#DNSMASQ_START="10.10.17.2"
+#DNSMASQ_END="10.10.17.255"
+#HOSTAPD_PASS="gps@pi!9"
+#HOSTAPD_NAME="stratum1pi"
 
 
 

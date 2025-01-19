@@ -1,6 +1,6 @@
-# TGU Zero
+# Modified stage2 Pi-GEN for TGU RF_Station
 
-This Stage is for building a Pi Zero with the following attributes
+## This Stage is for building a Pi Zero with the following attributes
 
 * Stage 2 ( Headless )
 * GPSD ( See GPS Pinout )
