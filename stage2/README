@@ -4,8 +4,8 @@
 
 * Stage 2 ( Headless )
 * GPSD ( See GPS Pinout )
-* NTPSEC ( )
-* DNSMasq using network manager 
+* NTPSEC PPS from GPS board
+* DNSMasq using network manager
 * Hostapd using network manager on wlan0
 * Shorewall, routes internet traffice through eth0 if connected to the internet
 * SDR tools
