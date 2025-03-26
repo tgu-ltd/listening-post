@@ -30,6 +30,11 @@ Wollah! a Pi Zero operating system capable of listening to RF signals with milli
 [GPS Antenna: Amazon](https://www.amazon.co.uk/gp/product/B01BML4XMQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 [NooElec Nano SDR + Antenna: Amazon](https://www.amazon.co.uk/gp/product/B01B4L48QU/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 [RP-SMA to w.FL / MHF3: Amazon ](https://www.amazon.co.uk/TUOLNK-RP-SMA-Coaxial-Antenna-Extension/dp/B0B9RXDLNN/ref=sr_1_1_sspa?crid=1KKU7DIID3CRR&dib=eyJ2IjoiMSJ9.KJDSiFJ-nop6N45mMRKlPI4Op8xYWUON40kLIp09oEvoK4zwYPbR3awLxOM87ZQ9Zf_wTRgB8hnWrFCqgTebE1EZ4EbEnoNUhO3V_gZzpPduU4LH2gUZpYQsDpUJQz4CNnqimkNUr6vFsQi5UlnxY29xK7dxX6HmeINlhm4qfgsaqmSm6D1MhTEEVeNia49dn5hqkY2C0nvUYQ9OWZUF-F3-EAFY5AMTXtdQEJUngmozcLfCPdXeM1_mikvBePZT8wcaWWoQAaRcbVb6zbve0zr62_2leIvQ3ZcGXCyLksQ.iI-XuoRPIpPCO0yuQBnxIgz6deFjaykYV5fPVQ9XI9o&dib_tag=se&keywords=RP-SMA+to+w.FL&qid=1742574783&s=electronics&sprefix=rp-sma+to+w.fl%2Celectronics%2C744&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+```bash
+apt-get install coreutils quilt parted qemu-user-static debootstrap zerofree zip \
+dosfstools libarchive-tools libcap2-bin grep rsync xz-utils file git curl bc \
+gpg pigz xxd arch-test bmap-tools
+```
 
 ## Boot up notes
 
