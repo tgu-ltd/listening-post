@@ -1,0 +1,48 @@
+{
+  "author": "TGU",
+  "description": "Prototype frequency allocation table",
+  "updated": "24 March 2025",
+  "License": "MIT",
+  "sample_rate": 2048000,
+  "read_samples": 1024,
+  "sdr_min_hz": 25000000, 
+  "sdr_max_hz": 1700000000,
+  "gain": "auto",
+  "bands": [
+    {
+      "name": "CB",
+      "lower": 26965000,
+      "upper": 27405000,
+      "step":  10000,
+      "db": 0
+    },
+    {
+      "name": "Aviation",
+      "lower": 118000000,
+      "upper": 136000000,
+      "step":  100000,
+      "db": 0
+    },
+    {
+      "name": "Amateur",
+      "lower": 144000000,
+      "upper": 146000000,
+      "step": 10000,
+      "db": 0
+    },
+    {
+      "name": "BusinessVHF",
+      "lower": 163000000,
+      "upper": 168000000,
+      "step": 100000,
+      "db": 0
+    },
+    {
+      "name": "WalkieTalkies",
+      "lower": 446000000,
+      "upper": 446200000,
+      "step": 10000,
+      "db": 0
+    }
+  ]
+}

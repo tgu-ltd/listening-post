@@ -1,0 +1,31 @@
+
+<section>
+    <h2>Scan</h2>
+    <textarea readonly id="scanStatus" placeholder="Scan Status" style="height: 150px;"></textarea>
+    <div>
+        <button id="scannerStart">Start</button>
+        <button id="scannerStop">Stop</button>
+        <button id="scannerClear">Stop and Clear</button>
+        Use FAT DB Level<input type="checkbox" id="useTrigger" checked="checked">
+    </div>
+</section>
+
+
+<section>
+    <h2>Download </h2>
+    <button id="downLoadLiveFile">Download CSV</button>
+</section>
+
+
+<section>
+    <h2>Analysis</h2>
+    <div>
+        <button id="showCurrentAnalysis">Show Results</button>
+        Use Band Name<input type="checkbox" id="useBandName" checked="checked">
+        <div id="plot_div" style="overflow: auto;"></div>
+    </div>
+</section>
+
+
+<script src="/static/plotly.js"></script>
+<script src="/static/scanner.js"></script>

@@ -1,0 +1,10429 @@
+{
+ "author": "TGU",
+ "description": "Frequency allocation table derived from OffCom band plan 2018",
+ "updated": "26 March 2025",
+ "License": "MIT",
+ "sample_rate": 2048000,
+ "read_samples": 1024,
+ "gain": "auto",
+ "sdr_min_hz": 25000000,
+ "sdr_max_hz": 1700000000,
+ "bands": [
+  {
+   "lower": 0,
+   "upper": 8300,
+   "name": "Not Allocated",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8300,
+   "upper": 9000,
+   "name": "Meteorological Aids",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9000,
+   "upper": 11300,
+   "name": "Meteorological Aids",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9000,
+   "upper": 11300,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11300,
+   "upper": 14000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000,
+   "upper": 19950,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000,
+   "upper": 19950,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19950,
+   "upper": 20050,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20050,
+   "upper": 59750,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20050,
+   "upper": 59750,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59750,
+   "upper": 60250,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 60250,
+   "upper": 70000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 60250,
+   "upper": 70000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 70000,
+   "upper": 72000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 72000,
+   "upper": 84000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 72000,
+   "upper": 84000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 72000,
+   "upper": 84000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 84000,
+   "upper": 86000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 86000,
+   "upper": 90000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 86000,
+   "upper": 90000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 86000,
+   "upper": 90000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 90000,
+   "upper": 110000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 110000,
+   "upper": 112000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 110000,
+   "upper": 112000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 110000,
+   "upper": 112000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 112000,
+   "upper": 115000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 115000,
+   "upper": 117600,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 115000,
+   "upper": 117600,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 115000,
+   "upper": 117600,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 117600,
+   "upper": 126000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 117600,
+   "upper": 126000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 117600,
+   "upper": 126000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 126000,
+   "upper": 129000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 129000,
+   "upper": 130000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 129000,
+   "upper": 130000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 129000,
+   "upper": 130000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000,
+   "upper": 135700,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000,
+   "upper": 135700,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 135700,
+   "upper": 137800,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 135700,
+   "upper": 137800,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 135700,
+   "upper": 137800,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137800,
+   "upper": 148500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137800,
+   "upper": 148500,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148500,
+   "upper": 255000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 255000,
+   "upper": 283500,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 255000,
+   "upper": 283500,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 283500,
+   "upper": 315000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 283500,
+   "upper": 315000,
+   "name": "Maritime Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 315000,
+   "upper": 325000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 315000,
+   "upper": 325000,
+   "name": "Maritime Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 325000,
+   "upper": 405000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 405000,
+   "upper": 415000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 415000,
+   "upper": 435000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 415000,
+   "upper": 435000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 435000,
+   "upper": 472000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 435000,
+   "upper": 472000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 472000,
+   "upper": 479000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 472000,
+   "upper": 479000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 472000,
+   "upper": 479000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 479000,
+   "upper": 495000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 479000,
+   "upper": 495000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 495000,
+   "upper": 505000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 505000,
+   "upper": 526500,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 505000,
+   "upper": 526500,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 526500,
+   "upper": 1606500,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1606500,
+   "upper": 1625000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1606500,
+   "upper": 1625000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1606500,
+   "upper": 1625000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1606500,
+   "upper": 1625000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1625000,
+   "upper": 1635000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1625000,
+   "upper": 1635000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1635000,
+   "upper": 1800000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1635000,
+   "upper": 1800000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1635000,
+   "upper": 1800000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1635000,
+   "upper": 1800000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1800000,
+   "upper": 1810000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1810000,
+   "upper": 1850000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1850000,
+   "upper": 2000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1850000,
+   "upper": 2000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1850000,
+   "upper": 2000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1850000,
+   "upper": 2000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2000000,
+   "upper": 2025000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2000000,
+   "upper": 2025000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2000000,
+   "upper": 2025000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2025000,
+   "upper": 2045000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2025000,
+   "upper": 2045000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2045000,
+   "upper": 2160000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2045000,
+   "upper": 2160000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2045000,
+   "upper": 2160000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2045000,
+   "upper": 2160000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2160000,
+   "upper": 2170000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2160000,
+   "upper": 2170000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2160000,
+   "upper": 2170000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2170000,
+   "upper": 2173500,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2173500,
+   "upper": 2190500,
+   "name": "Mobile (distress and calling)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2190500,
+   "upper": 2194000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2194000,
+   "upper": 2300000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2194000,
+   "upper": 2300000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2194000,
+   "upper": 2300000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2300000,
+   "upper": 2498000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2300000,
+   "upper": 2498000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2498000,
+   "upper": 2501000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2501000,
+   "upper": 2502000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2501000,
+   "upper": 2502000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2502000,
+   "upper": 2625000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2502000,
+   "upper": 2625000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2502000,
+   "upper": 2625000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2625000,
+   "upper": 2650000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2625000,
+   "upper": 2650000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2650000,
+   "upper": 2850000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2650000,
+   "upper": 2850000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2650000,
+   "upper": 2850000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2850000,
+   "upper": 3025000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3025000,
+   "upper": 3155000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3155000,
+   "upper": 3200000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3155000,
+   "upper": 3200000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3200000,
+   "upper": 3230000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3200000,
+   "upper": 3230000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3230000,
+   "upper": 3400000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3230000,
+   "upper": 3400000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3400000,
+   "upper": 3500000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3500000,
+   "upper": 3800000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3500000,
+   "upper": 3800000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3500000,
+   "upper": 3800000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3500000,
+   "upper": 3800000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3800000,
+   "upper": 3900000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3800000,
+   "upper": 3900000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3800000,
+   "upper": 3900000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3900000,
+   "upper": 3950000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3950000,
+   "upper": 4000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3950000,
+   "upper": 4000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4000000,
+   "upper": 4062999,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4000000,
+   "upper": 4062999,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4062999,
+   "upper": 4438000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4438000,
+   "upper": 4488000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4438000,
+   "upper": 4488000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4438000,
+   "upper": 4488000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4488000,
+   "upper": 4650000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4488000,
+   "upper": 4650000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4650000,
+   "upper": 4700000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4700000,
+   "upper": 4750000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4750000,
+   "upper": 4850000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4750000,
+   "upper": 4850000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4750000,
+   "upper": 4850000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4850000,
+   "upper": 4995000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4850000,
+   "upper": 4995000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4995000,
+   "upper": 5003000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5003000,
+   "upper": 5005000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5003000,
+   "upper": 5005000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5005000,
+   "upper": 5060000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5060000,
+   "upper": 5250000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5060000,
+   "upper": 5250000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5250000,
+   "upper": 5275000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5250000,
+   "upper": 5275000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5275000,
+   "upper": 5351500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5275000,
+   "upper": 5351500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5351500,
+   "upper": 5366500,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5351500,
+   "upper": 5366500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5351500,
+   "upper": 5366500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5366500,
+   "upper": 5450000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5366500,
+   "upper": 5450000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5450000,
+   "upper": 5480000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5450000,
+   "upper": 5480000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5450000,
+   "upper": 5480000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5480000,
+   "upper": 5680000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5680000,
+   "upper": 5730000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5730000,
+   "upper": 5900000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5730000,
+   "upper": 5900000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5900000,
+   "upper": 5950000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5950000,
+   "upper": 6200000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6200000,
+   "upper": 6525000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6525000,
+   "upper": 6685000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6685000,
+   "upper": 6765000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6765000,
+   "upper": 7000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6765000,
+   "upper": 7000000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7000000,
+   "upper": 7100000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7000000,
+   "upper": 7100000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7100000,
+   "upper": 7200000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7200000,
+   "upper": 7300000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7300000,
+   "upper": 7350000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7350000,
+   "upper": 7450000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7350000,
+   "upper": 7450000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7350000,
+   "upper": 7450000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7450000,
+   "upper": 8100000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7450000,
+   "upper": 8100000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8100000,
+   "upper": 8195000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8100000,
+   "upper": 8195000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8195000,
+   "upper": 8815000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8815000,
+   "upper": 8965000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8965000,
+   "upper": 9040000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9040000,
+   "upper": 9305000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9305000,
+   "upper": 9335000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9305000,
+   "upper": 9335000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9335000,
+   "upper": 9400000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9400000,
+   "upper": 9500000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9500000,
+   "upper": 9900000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9900000,
+   "upper": 9995000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9995000,
+   "upper": 10003000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10003000,
+   "upper": 10005000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10003000,
+   "upper": 10005000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10005000,
+   "upper": 10100000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10100000,
+   "upper": 10150000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10100000,
+   "upper": 10150000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10150000,
+   "upper": 11175000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10150000,
+   "upper": 11175000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11175000,
+   "upper": 11275000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11275000,
+   "upper": 11400000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11400000,
+   "upper": 11600000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11600000,
+   "upper": 11650000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11650000,
+   "upper": 12050000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12050000,
+   "upper": 12230000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12230000,
+   "upper": 13200000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13200000,
+   "upper": 13260000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13260000,
+   "upper": 13360000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13360000,
+   "upper": 13410000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13360000,
+   "upper": 13410000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13410000,
+   "upper": 13450000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13410000,
+   "upper": 13450000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13450000,
+   "upper": 13550000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13450000,
+   "upper": 13550000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13450000,
+   "upper": 13550000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13550000,
+   "upper": 13570000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13550000,
+   "upper": 13570000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13570000,
+   "upper": 13600000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13600000,
+   "upper": 13800000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13800000,
+   "upper": 13870000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13870000,
+   "upper": 14000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13870000,
+   "upper": 14000000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000000,
+   "upper": 14250000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000000,
+   "upper": 14250000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000,
+   "upper": 14350000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14350000,
+   "upper": 14990000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14350000,
+   "upper": 14990000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14990000,
+   "upper": 15005000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15005000,
+   "upper": 15010000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15005000,
+   "upper": 15010000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15010000,
+   "upper": 15100000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15100000,
+   "upper": 15600000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15600000,
+   "upper": 15800000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15800000,
+   "upper": 16100000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 16100000,
+   "upper": 16200000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 16100000,
+   "upper": 16200000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 16200000,
+   "upper": 16300000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 16360000,
+   "upper": 17410000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17410000,
+   "upper": 17480000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17480000,
+   "upper": 17550000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17550000,
+   "upper": 17900000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17900000,
+   "upper": 17970000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17970000,
+   "upper": 18030000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18030000,
+   "upper": 18052000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18052000,
+   "upper": 18068000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18068000,
+   "upper": 18168000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18068000,
+   "upper": 18168000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18168000,
+   "upper": 18780000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18168000,
+   "upper": 18780000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18780000,
+   "upper": 18900000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18900000,
+   "upper": 19020000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19020000,
+   "upper": 19680000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19680000,
+   "upper": 19800000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19800000,
+   "upper": 19990000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19990000,
+   "upper": 19995000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19995000,
+   "upper": 20010000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20010000,
+   "upper": 21000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20010000,
+   "upper": 21000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21000000,
+   "upper": 21450000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21000000,
+   "upper": 21450000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21450000,
+   "upper": 21850000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21850000,
+   "upper": 21870000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21870000,
+   "upper": 21924000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21924000,
+   "upper": 22000000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22000000,
+   "upper": 22855000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22855000,
+   "upper": 23000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23000000,
+   "upper": 23200000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23000000,
+   "upper": 23200000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23200000,
+   "upper": 23350000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23200000,
+   "upper": 23350000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23350000,
+   "upper": 24000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23350000,
+   "upper": 24000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24000000,
+   "upper": 24450000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24000000,
+   "upper": 24450000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24450000,
+   "upper": 24600000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24450000,
+   "upper": 24600000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24450000,
+   "upper": 24600000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24600000,
+   "upper": 24890000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24600000,
+   "upper": 24890000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24890000,
+   "upper": 24990000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24890000,
+   "upper": 24990000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24990000,
+   "upper": 25005000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25005000,
+   "upper": 25010000,
+   "name": "Standard Frequency and Time Signal",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25005000,
+   "upper": 25010000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25010000,
+   "upper": 25070000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25070000,
+   "upper": 25210000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25210000,
+   "upper": 25550000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25210000,
+   "upper": 25550000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25550000,
+   "upper": 25670000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25670000,
+   "upper": 26100000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26100000,
+   "upper": 26175000,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26175000,
+   "upper": 26200000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26175000,
+   "upper": 26200000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26200000,
+   "upper": 26350000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26200000,
+   "upper": 26350000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26200000,
+   "upper": 26350000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26350000,
+   "upper": 27500000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26350000,
+   "upper": 27500000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27500000,
+   "upper": 28000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27500000,
+   "upper": 28000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 28000000,
+   "upper": 29700000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 28000000,
+   "upper": 29700000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29700000,
+   "upper": 30005000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29700000,
+   "upper": 30005000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30005000,
+   "upper": 30010000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30005000,
+   "upper": 30010000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30005000,
+   "upper": 30010000,
+   "name": "Space Operation (Satellite Identification)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30005000,
+   "upper": 30010000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30010000,
+   "upper": 37500000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30010000,
+   "upper": 37500000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000,
+   "upper": 38250000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000,
+   "upper": 38250000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000,
+   "upper": 38250000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 38250000,
+   "upper": 39000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 38250000,
+   "upper": 39000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39000000,
+   "upper": 39500000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39000000,
+   "upper": 39500000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39000000,
+   "upper": 39500000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000,
+   "upper": 39986000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000,
+   "upper": 39986000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39986000,
+   "upper": 40020000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40020000,
+   "upper": 40980000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40980000,
+   "upper": 41015000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 41015000,
+   "upper": 42000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 41015000,
+   "upper": 42000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42000000,
+   "upper": 42500000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42000000,
+   "upper": 42500000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42500000,
+   "upper": 44000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42500000,
+   "upper": 44000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 44000000,
+   "upper": 46400000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 44000000,
+   "upper": 46400000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 46400000,
+   "upper": 47000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 46400000,
+   "upper": 47000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47000000,
+   "upper": 50000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 50000000,
+   "upper": 51000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 51000000,
+   "upper": 52000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 51000000,
+   "upper": 52000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 52000000,
+   "upper": 68000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 52000000,
+   "upper": 68000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 68000000,
+   "upper": 70500000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 68000000,
+   "upper": 70500000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 70500000,
+   "upper": 71500000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 71500000,
+   "upper": 72800000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 72800000,
+   "upper": 74800000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74800000,
+   "upper": 75200000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75200000,
+   "upper": 76700000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76700000,
+   "upper": 78000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76700000,
+   "upper": 78000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 78000000,
+   "upper": 80000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 80000000,
+   "upper": 87500000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 80000000,
+   "upper": 87500000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 87500000,
+   "upper": 108000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 108000000,
+   "upper": 117975000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 117975000,
+   "upper": 137000000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137000000,
+   "upper": 137025000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137000000,
+   "upper": 137025000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137000000,
+   "upper": 137025000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137000000,
+   "upper": 137025000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137025000,
+   "upper": 137175000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137025000,
+   "upper": 137175000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137025000,
+   "upper": 137175000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137025000,
+   "upper": 137175000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137175000,
+   "upper": 137825000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137175000,
+   "upper": 137825000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137175000,
+   "upper": 137825000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137175000,
+   "upper": 137825000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137825000,
+   "upper": 138000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137825000,
+   "upper": 138000000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137825000,
+   "upper": 138000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 137825000,
+   "upper": 138000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 138000000,
+   "upper": 141900000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 138000000,
+   "upper": 141900000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 141900000,
+   "upper": 143000000,
+   "name": "Aeronautical Mobile (OR)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 141900000,
+   "upper": 143000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 143000000,
+   "upper": 144000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 144000000,
+   "upper": 146000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 144000000,
+   "upper": 146000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 146000000,
+   "upper": 148000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 146000000,
+   "upper": 148000000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148000000,
+   "upper": 149900000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148000000,
+   "upper": 149900000,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148000000,
+   "upper": 149900000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148000000,
+   "upper": 149900000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 149900000,
+   "upper": 150050000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 150050000,
+   "upper": 152000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 150050000,
+   "upper": 152000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 150050000,
+   "upper": 152000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 152000000,
+   "upper": 153000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 153000000,
+   "upper": 153500000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 153500000,
+   "upper": 154000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 154000000,
+   "upper": 156487500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 154000000,
+   "upper": 156487500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156487500,
+   "upper": 156562500,
+   "name": "Maritime mobile service \u2013 digital selective calling for distress, safety and calling",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156562500,
+   "upper": 156762500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156562500,
+   "upper": 156762500,
+   "name": "Mobile except aeronautical mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156762500,
+   "upper": 156787500,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156762500,
+   "upper": 156787500,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156787500,
+   "upper": 156812500,
+   "name": "Maritime mobile service \u2013 distress, safety and calling",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156812500,
+   "upper": 156837500,
+   "name": "Maritime Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156812500,
+   "upper": 156837500,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156837500,
+   "upper": 157187500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 156837500,
+   "upper": 157187500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 157187500,
+   "upper": 157337500,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 157187500,
+   "upper": 157337500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 157187500,
+   "upper": 157337500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 157337500,
+   "upper": 161787500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 157337500,
+   "upper": 161787500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161787500,
+   "upper": 161937500,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161787500,
+   "upper": 161937500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161787500,
+   "upper": 161937500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161937500,
+   "upper": 161962500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161937500,
+   "upper": 161962500,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161937500,
+   "upper": 161962500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161962500,
+   "upper": 161987500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161962500,
+   "upper": 161987500,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161962500,
+   "upper": 161987500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161987500,
+   "upper": 162012500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161987500,
+   "upper": 162012500,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 161987500,
+   "upper": 162012500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 162012500,
+   "upper": 162037500,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 162012500,
+   "upper": 162037500,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 162012500,
+   "upper": 162037500,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 162037500,
+   "upper": 174000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 162037500,
+   "upper": 174000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174000000,
+   "upper": 217500000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174000000,
+   "upper": 217500000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174000000,
+   "upper": 217500000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217500000,
+   "upper": 230000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217500000,
+   "upper": 230000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217500000,
+   "upper": 230000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 230000000,
+   "upper": 235000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 230000000,
+   "upper": 235000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 230000000,
+   "upper": 235000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000,
+   "upper": 328600000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000,
+   "upper": 328600000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000,
+   "upper": 328600000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000,
+   "upper": 328600000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000,
+   "upper": 328600000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 328600000,
+   "upper": 335400000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 335400000,
+   "upper": 399900000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 335400000,
+   "upper": 399900000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 335400000,
+   "upper": 399900000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 399900000,
+   "upper": 400050000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 399900000,
+   "upper": 400050000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 400050000,
+   "upper": 400150000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 400150000,
+   "upper": 401000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 400150000,
+   "upper": 401000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 400150000,
+   "upper": 401000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 401000000,
+   "upper": 403000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 401000000,
+   "upper": 403000000,
+   "name": "Meteorological Aids",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 401000000,
+   "upper": 403000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 401000000,
+   "upper": 403000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 401000000,
+   "upper": 403000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 403000000,
+   "upper": 406000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 403000000,
+   "upper": 406000000,
+   "name": "Meteorological Aids",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 403000000,
+   "upper": 406000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 406000000,
+   "upper": 406100000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 406100000,
+   "upper": 410000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 406100000,
+   "upper": 410000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 406100000,
+   "upper": 410000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 406100000,
+   "upper": 410000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 410000000,
+   "upper": 420000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 410000000,
+   "upper": 420000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 410000000,
+   "upper": 420000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 420000000,
+   "upper": 430000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 420000000,
+   "upper": 430000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 420000000,
+   "upper": 430000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 430000000,
+   "upper": 440000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 430000000,
+   "upper": 440000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 430000000,
+   "upper": 440000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 430000000,
+   "upper": 440000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 430000000,
+   "upper": 440000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 440000000,
+   "upper": 450000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 440000000,
+   "upper": 450000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 440000000,
+   "upper": 450000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 450000000,
+   "upper": 455000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 450000000,
+   "upper": 455000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 455000000,
+   "upper": 456000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 455000000,
+   "upper": 456000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 456000000,
+   "upper": 459000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 456000000,
+   "upper": 459000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 459000000,
+   "upper": 460000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 459000000,
+   "upper": 460000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 460000000,
+   "upper": 470000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 460000000,
+   "upper": 470000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 470000000,
+   "upper": 694000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 470000000,
+   "upper": 694000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 694000000,
+   "upper": 790000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 694000000,
+   "upper": 790000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 790000000,
+   "upper": 862000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 790000000,
+   "upper": 862000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 790000000,
+   "upper": 862000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 862000000,
+   "upper": 870000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 870000000,
+   "upper": 876000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 876000000,
+   "upper": 880000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 880000000,
+   "upper": 915000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 880000000,
+   "upper": 915000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 880000000,
+   "upper": 915000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 915000000,
+   "upper": 921000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 915000000,
+   "upper": 921000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 921000000,
+   "upper": 925000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 925000000,
+   "upper": 960000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 925000000,
+   "upper": 960000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 960000000,
+   "upper": 1164000000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 960000000,
+   "upper": 1164000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1164000000,
+   "upper": 1215000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1164000000,
+   "upper": 1215000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1215000000,
+   "upper": 1240000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1215000000,
+   "upper": 1240000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1215000000,
+   "upper": 1240000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1215000000,
+   "upper": 1240000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1240000000,
+   "upper": 1260000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1240000000,
+   "upper": 1260000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1240000000,
+   "upper": 1260000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1240000000,
+   "upper": 1260000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1240000000,
+   "upper": 1260000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1240000000,
+   "upper": 1260000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1260000000,
+   "upper": 1300000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1300000000,
+   "upper": 1350000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1300000000,
+   "upper": 1350000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1300000000,
+   "upper": 1350000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1300000000,
+   "upper": 1350000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1300000000,
+   "upper": 1350000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1350000000,
+   "upper": 1375000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1350000000,
+   "upper": 1375000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1350000000,
+   "upper": 1375000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1375000000,
+   "upper": 1400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1375000000,
+   "upper": 1400000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1400000000,
+   "upper": 1427000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1400000000,
+   "upper": 1427000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1400000000,
+   "upper": 1427000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1427000000,
+   "upper": 1429000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1427000000,
+   "upper": 1429000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1427000000,
+   "upper": 1429000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1429000000,
+   "upper": 1452000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1429000000,
+   "upper": 1452000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1452000000,
+   "upper": 1492000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1452000000,
+   "upper": 1492000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1452000000,
+   "upper": 1492000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1452000000,
+   "upper": 1492000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1492000000,
+   "upper": 1518000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1492000000,
+   "upper": 1518000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1518000000,
+   "upper": 1525000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1518000000,
+   "upper": 1525000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1518000000,
+   "upper": 1525000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1525000000,
+   "upper": 1530000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1525000000,
+   "upper": 1530000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1525000000,
+   "upper": 1530000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1525000000,
+   "upper": 1530000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1525000000,
+   "upper": 1530000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1530000000,
+   "upper": 1533000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1530000000,
+   "upper": 1533000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1530000000,
+   "upper": 1533000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1530000000,
+   "upper": 1533000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1530000000,
+   "upper": 1533000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1533000000,
+   "upper": 1535000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1533000000,
+   "upper": 1535000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1533000000,
+   "upper": 1535000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1533000000,
+   "upper": 1535000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1535000000,
+   "upper": 1559000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1559000000,
+   "upper": 1610000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1559000000,
+   "upper": 1610000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1610000000,
+   "upper": 1610600000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1610000000,
+   "upper": 1610600000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1610600000,
+   "upper": 1613800000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1610600000,
+   "upper": 1613800000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1610600000,
+   "upper": 1613800000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1613800000,
+   "upper": 1621350000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1613800000,
+   "upper": 1621350000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1613800000,
+   "upper": 1621350000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1621350000,
+   "upper": 1626500000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1621350000,
+   "upper": 1626500000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1621350000,
+   "upper": 1626500000,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1621350000,
+   "upper": 1626500000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1626500000,
+   "upper": 1660000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1660000000,
+   "upper": 1660500000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1660000000,
+   "upper": 1660500000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1660500000,
+   "upper": 1668000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1660500000,
+   "upper": 1668000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1660500000,
+   "upper": 1668000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1660500000,
+   "upper": 1668000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668000000,
+   "upper": 1668400000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668000000,
+   "upper": 1668400000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668000000,
+   "upper": 1668400000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668000000,
+   "upper": 1668400000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668000000,
+   "upper": 1668400000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668400000,
+   "upper": 1670000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668400000,
+   "upper": 1670000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668400000,
+   "upper": 1670000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1668400000,
+   "upper": 1670000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1670000000,
+   "upper": 1675000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1670000000,
+   "upper": 1675000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1670000000,
+   "upper": 1675000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1675000000,
+   "upper": 1690000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1675000000,
+   "upper": 1690000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1675000000,
+   "upper": 1690000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1690000000,
+   "upper": 1698000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1690000000,
+   "upper": 1698000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1690000000,
+   "upper": 1698000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1698000000,
+   "upper": 1700000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1698000000,
+   "upper": 1700000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1700000000,
+   "upper": 1710000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1700000000,
+   "upper": 1710000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1710000000,
+   "upper": 1785000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1710000000,
+   "upper": 1785000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1710000000,
+   "upper": 1785000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1785000000,
+   "upper": 1800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1785000000,
+   "upper": 1800000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1785000000,
+   "upper": 1800000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1800000000,
+   "upper": 1805000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1800000000,
+   "upper": 1805000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1800000000,
+   "upper": 1805000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1805000000,
+   "upper": 1880000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1805000000,
+   "upper": 1880000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1805000000,
+   "upper": 1880000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1880000000,
+   "upper": 1885000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1880000000,
+   "upper": 1885000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1885000000,
+   "upper": 1900000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1885000000,
+   "upper": 1900000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1900000000,
+   "upper": 1980000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1900000000,
+   "upper": 1980000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1980000000,
+   "upper": 2010000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1980000000,
+   "upper": 2010000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 1980000000,
+   "upper": 2010000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2010000000,
+   "upper": 2025000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2010000000,
+   "upper": 2025000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2025000000,
+   "upper": 2110000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2025000000,
+   "upper": 2110000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2025000000,
+   "upper": 2110000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2025000000,
+   "upper": 2110000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2110000000,
+   "upper": 2120000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2110000000,
+   "upper": 2120000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2110000000,
+   "upper": 2120000000,
+   "name": "Space Research (deep space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2120000000,
+   "upper": 2170000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2120000000,
+   "upper": 2170000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2170000000,
+   "upper": 2200000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2170000000,
+   "upper": 2200000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2170000000,
+   "upper": 2200000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2200000000,
+   "upper": 2290000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2200000000,
+   "upper": 2290000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2200000000,
+   "upper": 2290000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2200000000,
+   "upper": 2290000000,
+   "name": "Space Operation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2200000000,
+   "upper": 2290000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2290000000,
+   "upper": 2300000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2290000000,
+   "upper": 2300000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2290000000,
+   "upper": 2300000000,
+   "name": "Space Research (deep space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2300000000,
+   "upper": 2302000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2300000000,
+   "upper": 2302000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2300000000,
+   "upper": 2302000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2302000000,
+   "upper": 2310000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2302000000,
+   "upper": 2310000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2310000000,
+   "upper": 2350000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2310000000,
+   "upper": 2350000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2310000000,
+   "upper": 2350000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2310000000,
+   "upper": 2350000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2350000000,
+   "upper": 2390000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2350000000,
+   "upper": 2390000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2390000000,
+   "upper": 2450000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2390000000,
+   "upper": 2450000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2390000000,
+   "upper": 2450000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2390000000,
+   "upper": 2450000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2390000000,
+   "upper": 2450000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2450000000,
+   "upper": 2483500000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2450000000,
+   "upper": 2483500000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2450000000,
+   "upper": 2483500000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2483500000,
+   "upper": 2500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2483500000,
+   "upper": 2500000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2483500000,
+   "upper": 2500000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2483500000,
+   "upper": 2500000000,
+   "name": "Radiodetermination-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2483500000,
+   "upper": 2500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2500000000,
+   "upper": 2520000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2500000000,
+   "upper": 2520000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2520000000,
+   "upper": 2655000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2520000000,
+   "upper": 2655000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2520000000,
+   "upper": 2655000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2655000000,
+   "upper": 2670000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2655000000,
+   "upper": 2670000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2655000000,
+   "upper": 2670000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2655000000,
+   "upper": 2670000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2655000000,
+   "upper": 2670000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2670000000,
+   "upper": 2690000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2670000000,
+   "upper": 2690000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2670000000,
+   "upper": 2690000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2670000000,
+   "upper": 2690000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2670000000,
+   "upper": 2690000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2670000000,
+   "upper": 2690000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2690000000,
+   "upper": 2700000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2690000000,
+   "upper": 2700000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2690000000,
+   "upper": 2700000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2700000000,
+   "upper": 2900000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2700000000,
+   "upper": 2900000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2900000000,
+   "upper": 3100000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 2900000000,
+   "upper": 3100000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3100000000,
+   "upper": 3300000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3100000000,
+   "upper": 3300000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3100000000,
+   "upper": 3300000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3300000000,
+   "upper": 3400000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3300000000,
+   "upper": 3400000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3400000000,
+   "upper": 3410000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3400000000,
+   "upper": 3410000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3400000000,
+   "upper": 3410000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3410000000,
+   "upper": 3600000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3600000000,
+   "upper": 3800000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3600000000,
+   "upper": 3800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3600000000,
+   "upper": 3800000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3800000000,
+   "upper": 4200000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3800000000,
+   "upper": 4200000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 3800000000,
+   "upper": 4200000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4200000000,
+   "upper": 4400000000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4200000000,
+   "upper": 4400000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4400000000,
+   "upper": 4500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4400000000,
+   "upper": 4500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4500000000,
+   "upper": 4800000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4500000000,
+   "upper": 4800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4500000000,
+   "upper": 4800000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4800000000,
+   "upper": 4990000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4800000000,
+   "upper": 4990000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4800000000,
+   "upper": 4990000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4990000000,
+   "upper": 5000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4990000000,
+   "upper": 5000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 4990000000,
+   "upper": 5000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5000000000,
+   "upper": 5010000000,
+   "name": "aeronautical mobile satellite (route) service",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5000000000,
+   "upper": 5010000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5000000000,
+   "upper": 5010000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5010000000,
+   "upper": 5030000000,
+   "name": "aeronautical mobile satellite (route) service",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5010000000,
+   "upper": 5030000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5010000000,
+   "upper": 5030000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5030000000,
+   "upper": 5091000000,
+   "name": "aeronautical mobile satellite (route) service",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5030000000,
+   "upper": 5091000000,
+   "name": "Aeronautical Mobile (R)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5030000000,
+   "upper": 5091000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5091000000,
+   "upper": 5150000000,
+   "name": "aeronautical mobile satellite (route) service",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5091000000,
+   "upper": 5150000000,
+   "name": "Aeronautical Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5091000000,
+   "upper": 5150000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5091000000,
+   "upper": 5150000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5150000000,
+   "upper": 5250000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5150000000,
+   "upper": 5250000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5150000000,
+   "upper": 5250000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5250000000,
+   "upper": 5255000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5250000000,
+   "upper": 5255000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5250000000,
+   "upper": 5255000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5255000000,
+   "upper": 5350000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5255000000,
+   "upper": 5350000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5255000000,
+   "upper": 5350000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5350000000,
+   "upper": 5460000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5350000000,
+   "upper": 5460000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5350000000,
+   "upper": 5460000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5350000000,
+   "upper": 5460000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5460000000,
+   "upper": 5470000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5460000000,
+   "upper": 5470000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5460000000,
+   "upper": 5470000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5460000000,
+   "upper": 5470000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5470000000,
+   "upper": 5570000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5470000000,
+   "upper": 5570000000,
+   "name": "Maritime Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5470000000,
+   "upper": 5570000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5470000000,
+   "upper": 5570000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5470000000,
+   "upper": 5570000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5570000000,
+   "upper": 5600000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5570000000,
+   "upper": 5600000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5600000000,
+   "upper": 5650000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5600000000,
+   "upper": 5650000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5650000000,
+   "upper": 5725000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5650000000,
+   "upper": 5725000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5650000000,
+   "upper": 5725000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5650000000,
+   "upper": 5725000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5650000000,
+   "upper": 5725000000,
+   "name": "Space Research (deep space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5725000000,
+   "upper": 5830000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5725000000,
+   "upper": 5830000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5725000000,
+   "upper": 5830000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5725000000,
+   "upper": 5830000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5830000000,
+   "upper": 5850000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5830000000,
+   "upper": 5850000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5830000000,
+   "upper": 5850000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5830000000,
+   "upper": 5850000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5830000000,
+   "upper": 5850000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5850000000,
+   "upper": 5925000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5850000000,
+   "upper": 5925000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5850000000,
+   "upper": 5925000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5925000000,
+   "upper": 6700000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5925000000,
+   "upper": 6700000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 5925000000,
+   "upper": 6700000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6700000000,
+   "upper": 7075000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6700000000,
+   "upper": 7075000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 6700000000,
+   "upper": 7075000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7075000000,
+   "upper": 7145000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7075000000,
+   "upper": 7145000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7145000000,
+   "upper": 7190000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7145000000,
+   "upper": 7190000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7145000000,
+   "upper": 7190000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7190000000,
+   "upper": 7235000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7190000000,
+   "upper": 7235000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7190000000,
+   "upper": 7235000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7190000000,
+   "upper": 7235000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7235000000,
+   "upper": 7250000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7235000000,
+   "upper": 7250000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7235000000,
+   "upper": 7250000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7250000000,
+   "upper": 7300000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7250000000,
+   "upper": 7300000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7300000000,
+   "upper": 7375000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7300000000,
+   "upper": 7375000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7300000000,
+   "upper": 7375000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7375000000,
+   "upper": 7450000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7375000000,
+   "upper": 7450000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7375000000,
+   "upper": 7450000000,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7375000000,
+   "upper": 7450000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7450000000,
+   "upper": 7550000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7450000000,
+   "upper": 7550000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7450000000,
+   "upper": 7550000000,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7450000000,
+   "upper": 7550000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7550000000,
+   "upper": 7750000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7550000000,
+   "upper": 7750000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7550000000,
+   "upper": 7750000000,
+   "name": "Maritime Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7550000000,
+   "upper": 7750000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7750000000,
+   "upper": 7900000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7750000000,
+   "upper": 7900000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7750000000,
+   "upper": 7900000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7900000000,
+   "upper": 7975000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7900000000,
+   "upper": 7975000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7900000000,
+   "upper": 7975000000,
+   "name": "Land Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7900000000,
+   "upper": 7975000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7975000000,
+   "upper": 8025000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 7975000000,
+   "upper": 8025000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8025000000,
+   "upper": 8175000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8025000000,
+   "upper": 8175000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8025000000,
+   "upper": 8175000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8025000000,
+   "upper": 8175000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8025000000,
+   "upper": 8175000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8175000000,
+   "upper": 8215000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8175000000,
+   "upper": 8215000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8175000000,
+   "upper": 8215000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8175000000,
+   "upper": 8215000000,
+   "name": "Meteorological-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8175000000,
+   "upper": 8215000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8175000000,
+   "upper": 8215000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8215000000,
+   "upper": 8400000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8215000000,
+   "upper": 8400000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8215000000,
+   "upper": 8400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8215000000,
+   "upper": 8400000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8215000000,
+   "upper": 8400000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8400000000,
+   "upper": 8500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8400000000,
+   "upper": 8500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8400000000,
+   "upper": 8500000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8500000000,
+   "upper": 8550000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8550000000,
+   "upper": 8650000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8550000000,
+   "upper": 8650000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8650000000,
+   "upper": 8750000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8750000000,
+   "upper": 8850000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8750000000,
+   "upper": 8850000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8850000000,
+   "upper": 9000000000,
+   "name": "Maritime Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 8850000000,
+   "upper": 9000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9000000000,
+   "upper": 9200000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9000000000,
+   "upper": 9200000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9200000000,
+   "upper": 9300000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9200000000,
+   "upper": 9300000000,
+   "name": "Maritime Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9200000000,
+   "upper": 9300000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9300000000,
+   "upper": 9500000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9300000000,
+   "upper": 9500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9300000000,
+   "upper": 9500000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9300000000,
+   "upper": 9500000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9500000000,
+   "upper": 9800000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9500000000,
+   "upper": 9800000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9500000000,
+   "upper": 9800000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9800000000,
+   "upper": 9900000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9800000000,
+   "upper": 9900000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9800000000,
+   "upper": 9900000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9900000000,
+   "upper": 10000000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 9900000000,
+   "upper": 10000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10000000000,
+   "upper": 10125000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10000000000,
+   "upper": 10125000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10000000000,
+   "upper": 10125000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10000000000,
+   "upper": 10125000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10000000000,
+   "upper": 10125000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10125000000,
+   "upper": 10225000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10125000000,
+   "upper": 10225000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10125000000,
+   "upper": 10225000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10125000000,
+   "upper": 10225000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10225000000,
+   "upper": 10400000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10225000000,
+   "upper": 10400000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10225000000,
+   "upper": 10400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10225000000,
+   "upper": 10400000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10225000000,
+   "upper": 10400000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10400000000,
+   "upper": 10450000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10400000000,
+   "upper": 10450000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10400000000,
+   "upper": 10450000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10400000000,
+   "upper": 10450000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10450000000,
+   "upper": 10475000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10450000000,
+   "upper": 10475000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10450000000,
+   "upper": 10475000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10450000000,
+   "upper": 10475000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10475000000,
+   "upper": 10500000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10475000000,
+   "upper": 10500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10475000000,
+   "upper": 10500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10475000000,
+   "upper": 10500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10500000000,
+   "upper": 10550000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10500000000,
+   "upper": 10550000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10500000000,
+   "upper": 10550000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10550000000,
+   "upper": 10600000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10550000000,
+   "upper": 10600000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10550000000,
+   "upper": 10600000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10600000000,
+   "upper": 10680000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10600000000,
+   "upper": 10680000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10600000000,
+   "upper": 10680000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10600000000,
+   "upper": 10680000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10600000000,
+   "upper": 10680000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10600000000,
+   "upper": 10680000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10680000000,
+   "upper": 10700000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10680000000,
+   "upper": 10700000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10680000000,
+   "upper": 10700000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10700000000,
+   "upper": 10950000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10700000000,
+   "upper": 10950000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10700000000,
+   "upper": 10950000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10950000000,
+   "upper": 11200000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10950000000,
+   "upper": 11200000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 10950000000,
+   "upper": 11200000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11200000000,
+   "upper": 11450000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11200000000,
+   "upper": 11450000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11200000000,
+   "upper": 11450000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11450000000,
+   "upper": 11700000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11450000000,
+   "upper": 11700000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11450000000,
+   "upper": 11700000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11700000000,
+   "upper": 12500000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11700000000,
+   "upper": 12500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11700000000,
+   "upper": 12500000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 11700000000,
+   "upper": 12500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12500000000,
+   "upper": 12750000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12500000000,
+   "upper": 12750000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12750000000,
+   "upper": 13250000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12750000000,
+   "upper": 13250000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12750000000,
+   "upper": 13250000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12750000000,
+   "upper": 13250000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 12750000000,
+   "upper": 13250000000,
+   "name": "Space Research (deep space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13250000000,
+   "upper": 13400000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13250000000,
+   "upper": 13400000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13400000000,
+   "upper": 13650000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13400000000,
+   "upper": 13650000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13400000000,
+   "upper": 13650000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13400000000,
+   "upper": 13650000000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13400000000,
+   "upper": 13650000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13650000000,
+   "upper": 13750000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13650000000,
+   "upper": 13750000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13650000000,
+   "upper": 13750000000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13650000000,
+   "upper": 13750000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13750000000,
+   "upper": 14000000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13750000000,
+   "upper": 14000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13750000000,
+   "upper": 14000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13750000000,
+   "upper": 14000000000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 13750000000,
+   "upper": 14000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000000000,
+   "upper": 14250000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000000000,
+   "upper": 14250000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000000000,
+   "upper": 14250000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14000000000,
+   "upper": 14250000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000000,
+   "upper": 14300000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000000,
+   "upper": 14300000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000000,
+   "upper": 14300000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000000,
+   "upper": 14300000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000000,
+   "upper": 14300000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14250000000,
+   "upper": 14300000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14300000000,
+   "upper": 14400000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14300000000,
+   "upper": 14400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14300000000,
+   "upper": 14400000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14300000000,
+   "upper": 14400000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14300000000,
+   "upper": 14400000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14400000000,
+   "upper": 14470000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14400000000,
+   "upper": 14470000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14400000000,
+   "upper": 14470000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14400000000,
+   "upper": 14470000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14400000000,
+   "upper": 14470000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14470000000,
+   "upper": 14500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14470000000,
+   "upper": 14500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14470000000,
+   "upper": 14500000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14470000000,
+   "upper": 14500000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14470000000,
+   "upper": 14500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14500000000,
+   "upper": 14750000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14500000000,
+   "upper": 14750000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14500000000,
+   "upper": 14750000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14500000000,
+   "upper": 14750000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14750000000,
+   "upper": 14800000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14750000000,
+   "upper": 14800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14750000000,
+   "upper": 14800000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14750000000,
+   "upper": 14800000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14800000000,
+   "upper": 15230000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 14800000000,
+   "upper": 15230000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15230000000,
+   "upper": 15350000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15230000000,
+   "upper": 15350000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15350000000,
+   "upper": 15400000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15350000000,
+   "upper": 15400000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15350000000,
+   "upper": 15400000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15400000000,
+   "upper": 15430000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15400000000,
+   "upper": 15430000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15430000000,
+   "upper": 15630000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15430000000,
+   "upper": 15630000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15430000000,
+   "upper": 15630000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15630000000,
+   "upper": 15700000000,
+   "name": "Aeronautical Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15630000000,
+   "upper": 15700000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 15700000000,
+   "upper": 16600000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 16600000000,
+   "upper": 17100000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 16600000000,
+   "upper": 17100000000,
+   "name": "Space Research (deep space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17100000000,
+   "upper": 17200000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17200000000,
+   "upper": 17300000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17200000000,
+   "upper": 17300000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17200000000,
+   "upper": 17300000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17200000000,
+   "upper": 17300000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17300000000,
+   "upper": 17700000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17300000000,
+   "upper": 17700000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17300000000,
+   "upper": 17700000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17700000000,
+   "upper": 18100000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 17700000000,
+   "upper": 18100000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18100000000,
+   "upper": 18400000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18100000000,
+   "upper": 18400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18400000000,
+   "upper": 18600000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18400000000,
+   "upper": 18600000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18600000000,
+   "upper": 18800000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18600000000,
+   "upper": 18800000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18600000000,
+   "upper": 18800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18600000000,
+   "upper": 18800000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18800000000,
+   "upper": 19300000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 18800000000,
+   "upper": 19300000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19300000000,
+   "upper": 19700000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19300000000,
+   "upper": 19700000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19700000000,
+   "upper": 20100000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 19700000000,
+   "upper": 20100000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20100000000,
+   "upper": 20200000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20100000000,
+   "upper": 20200000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20200000000,
+   "upper": 21200000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 20200000000,
+   "upper": 21200000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21200000000,
+   "upper": 21400000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21200000000,
+   "upper": 21400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21200000000,
+   "upper": 21400000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21200000000,
+   "upper": 21400000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21400000000,
+   "upper": 22000000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21400000000,
+   "upper": 22000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 21400000000,
+   "upper": 22000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22000000000,
+   "upper": 22210000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22000000000,
+   "upper": 22210000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22000000000,
+   "upper": 22210000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22000000000,
+   "upper": 22210000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22210000000,
+   "upper": 22500000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22210000000,
+   "upper": 22500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22210000000,
+   "upper": 22500000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22210000000,
+   "upper": 22500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22210000000,
+   "upper": 22500000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22500000000,
+   "upper": 22550000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22500000000,
+   "upper": 22550000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22550000000,
+   "upper": 23150000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22550000000,
+   "upper": 23150000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22550000000,
+   "upper": 23150000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22550000000,
+   "upper": 23150000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 22550000000,
+   "upper": 23150000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23150000000,
+   "upper": 23550000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23150000000,
+   "upper": 23550000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23150000000,
+   "upper": 23550000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23150000000,
+   "upper": 23550000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23550000000,
+   "upper": 23600000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23550000000,
+   "upper": 23600000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23600000000,
+   "upper": 24000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23600000000,
+   "upper": 24000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 23600000000,
+   "upper": 24000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24000000000,
+   "upper": 24050000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24000000000,
+   "upper": 24050000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24050000000,
+   "upper": 24250000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24050000000,
+   "upper": 24250000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24250000000,
+   "upper": 24450000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24250000000,
+   "upper": 24450000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24450000000,
+   "upper": 24650000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24450000000,
+   "upper": 24650000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24450000000,
+   "upper": 24650000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24650000000,
+   "upper": 24750000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24650000000,
+   "upper": 24750000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24650000000,
+   "upper": 24750000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24750000000,
+   "upper": 25250000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 24750000000,
+   "upper": 25250000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25250000000,
+   "upper": 25500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25250000000,
+   "upper": 25500000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25250000000,
+   "upper": 25500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25500000000,
+   "upper": 26500000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25500000000,
+   "upper": 26500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25500000000,
+   "upper": 26500000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25500000000,
+   "upper": 26500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25500000000,
+   "upper": 26500000000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 25500000000,
+   "upper": 26500000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26500000000,
+   "upper": 27000000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26500000000,
+   "upper": 27000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26500000000,
+   "upper": 27000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26500000000,
+   "upper": 27000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26500000000,
+   "upper": 27000000000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 26500000000,
+   "upper": 27000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27000000000,
+   "upper": 27500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27000000000,
+   "upper": 27500000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27000000000,
+   "upper": 27500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27500000000,
+   "upper": 28500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27500000000,
+   "upper": 28500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 27500000000,
+   "upper": 28500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 28500000000,
+   "upper": 29100000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 28500000000,
+   "upper": 29100000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 28500000000,
+   "upper": 29100000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 28500000000,
+   "upper": 29100000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29100000000,
+   "upper": 29500000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29100000000,
+   "upper": 29500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29100000000,
+   "upper": 29500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29100000000,
+   "upper": 29500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29500000000,
+   "upper": 29900000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29500000000,
+   "upper": 29900000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29500000000,
+   "upper": 29900000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29900000000,
+   "upper": 30000000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29900000000,
+   "upper": 30000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 29900000000,
+   "upper": 30000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30000000000,
+   "upper": 31000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 30000000000,
+   "upper": 31000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31000000000,
+   "upper": 31300000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31000000000,
+   "upper": 31300000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31000000000,
+   "upper": 31300000000,
+   "name": "Standard Frequency and Time Signal-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31000000000,
+   "upper": 31300000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31300000000,
+   "upper": 31500000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31300000000,
+   "upper": 31500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31300000000,
+   "upper": 31500000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31500000000,
+   "upper": 31800000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31500000000,
+   "upper": 31800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31500000000,
+   "upper": 31800000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31500000000,
+   "upper": 31800000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31500000000,
+   "upper": 31800000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31800000000,
+   "upper": 32000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31800000000,
+   "upper": 32000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 31800000000,
+   "upper": 32000000000,
+   "name": "space research service (deep space) (Earth-to-space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32000000000,
+   "upper": 32299999999,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32000000000,
+   "upper": 32299999999,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32000000000,
+   "upper": 32299999999,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32000000000,
+   "upper": 32299999999,
+   "name": "space research service (deep space) (space-to-Earth)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32299999999,
+   "upper": 33000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32299999999,
+   "upper": 33000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 32299999999,
+   "upper": 33000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 33000000000,
+   "upper": 33400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 33000000000,
+   "upper": 33400000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 33400000000,
+   "upper": 34200000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 34200000000,
+   "upper": 34700000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 34200000000,
+   "upper": 34700000000,
+   "name": "space research service (deep space) (Earth-to-space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 34700000000,
+   "upper": 35200000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 34700000000,
+   "upper": 35200000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 35200000000,
+   "upper": 35500000000,
+   "name": "Meteorological Aids",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 35200000000,
+   "upper": 35500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 35500000000,
+   "upper": 36000000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 35500000000,
+   "upper": 36000000000,
+   "name": "Meteorological Aids",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 35500000000,
+   "upper": 36000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 35500000000,
+   "upper": 36000000000,
+   "name": "space research service (active) (Earth-to-space)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 36000000000,
+   "upper": 37000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 36000000000,
+   "upper": 37000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 36000000000,
+   "upper": 37000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 36000000000,
+   "upper": 37000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37000000000,
+   "upper": 37500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37000000000,
+   "upper": 37500000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37000000000,
+   "upper": 37500000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000000,
+   "upper": 38000000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000000,
+   "upper": 38000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000000,
+   "upper": 38000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000000,
+   "upper": 38000000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 37500000000,
+   "upper": 38000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 38000000000,
+   "upper": 39500000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 38000000000,
+   "upper": 39500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 38000000000,
+   "upper": 39500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 38000000000,
+   "upper": 39500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000000,
+   "upper": 40000000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000000,
+   "upper": 40000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000000,
+   "upper": 40000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000000,
+   "upper": 40000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 39500000000,
+   "upper": 40000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40000000000,
+   "upper": 40500000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40000000000,
+   "upper": 40500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40000000000,
+   "upper": 40500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40000000000,
+   "upper": 40500000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40000000000,
+   "upper": 40500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40000000000,
+   "upper": 40500000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40500000000,
+   "upper": 41000000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40500000000,
+   "upper": 41000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 40500000000,
+   "upper": 41000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 41000000000,
+   "upper": 42500000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 41000000000,
+   "upper": 42500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42500000000,
+   "upper": 43500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42500000000,
+   "upper": 43500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42500000000,
+   "upper": 43500000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 42500000000,
+   "upper": 43500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 43500000000,
+   "upper": 45500000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 43500000000,
+   "upper": 45500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 45500000000,
+   "upper": 47000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 45500000000,
+   "upper": 47000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 45500000000,
+   "upper": 47000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 45500000000,
+   "upper": 47000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47000000000,
+   "upper": 47200000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47000000000,
+   "upper": 47200000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47200000000,
+   "upper": 47500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47200000000,
+   "upper": 47500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47200000000,
+   "upper": 47500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47500000000,
+   "upper": 47900000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47500000000,
+   "upper": 47900000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47500000000,
+   "upper": 47900000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47900000000,
+   "upper": 48200000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47900000000,
+   "upper": 48200000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 47900000000,
+   "upper": 48200000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 48200000000,
+   "upper": 48540000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 48200000000,
+   "upper": 48540000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 48200000000,
+   "upper": 48540000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 48540000000,
+   "upper": 49440000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 48540000000,
+   "upper": 49440000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 48540000000,
+   "upper": 49440000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 49440000000,
+   "upper": 50200000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 49440000000,
+   "upper": 50200000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 49440000000,
+   "upper": 50200000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 50200000000,
+   "upper": 50400000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 50200000000,
+   "upper": 50400000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 50400000000,
+   "upper": 51400000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 50400000000,
+   "upper": 51400000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 50400000000,
+   "upper": 51400000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 51400000000,
+   "upper": 52600000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 51400000000,
+   "upper": 52600000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 52600000000,
+   "upper": 54250000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 52600000000,
+   "upper": 54250000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 54250000000,
+   "upper": 55780000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 54250000000,
+   "upper": 55780000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 55780000000,
+   "upper": 56900000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 55780000000,
+   "upper": 56900000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 55780000000,
+   "upper": 56900000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 55780000000,
+   "upper": 56900000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 55780000000,
+   "upper": 56900000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 56900000000,
+   "upper": 57000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 56900000000,
+   "upper": 57000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 56900000000,
+   "upper": 57000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 56900000000,
+   "upper": 57000000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 56900000000,
+   "upper": 57000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 57000000000,
+   "upper": 58200000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 57000000000,
+   "upper": 58200000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 57000000000,
+   "upper": 58200000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 57000000000,
+   "upper": 58200000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 57000000000,
+   "upper": 58200000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 58200000000,
+   "upper": 59000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 58200000000,
+   "upper": 59000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 58200000000,
+   "upper": 59000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 58200000000,
+   "upper": 59000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59000000000,
+   "upper": 59300000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59000000000,
+   "upper": 59300000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59000000000,
+   "upper": 59300000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59000000000,
+   "upper": 59300000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59000000000,
+   "upper": 59300000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59000000000,
+   "upper": 59300000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59300000000,
+   "upper": 64000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59300000000,
+   "upper": 64000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59300000000,
+   "upper": 64000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 59300000000,
+   "upper": 64000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 64000000000,
+   "upper": 65000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 64000000000,
+   "upper": 65000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 64000000000,
+   "upper": 65000000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 65000000000,
+   "upper": 66000000000,
+   "name": "Earth Exploration-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 65000000000,
+   "upper": 66000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 65000000000,
+   "upper": 66000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 65000000000,
+   "upper": 66000000000,
+   "name": "Mobile except aeronautical mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 65000000000,
+   "upper": 66000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 66000000000,
+   "upper": 71000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 66000000000,
+   "upper": 71000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 66000000000,
+   "upper": 71000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 66000000000,
+   "upper": 71000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 66000000000,
+   "upper": 71000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 71000000000,
+   "upper": 74000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 71000000000,
+   "upper": 74000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 71000000000,
+   "upper": 74000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 71000000000,
+   "upper": 74000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74000000000,
+   "upper": 75500000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74000000000,
+   "upper": 75500000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74000000000,
+   "upper": 75500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74000000000,
+   "upper": 75500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74000000000,
+   "upper": 75500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 74000000000,
+   "upper": 75500000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Broadcasting-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Broadcasting",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 75500000000,
+   "upper": 76000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76000000000,
+   "upper": 77500000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76000000000,
+   "upper": 77500000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76000000000,
+   "upper": 77500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76000000000,
+   "upper": 77500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 76000000000,
+   "upper": 77500000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 77500000000,
+   "upper": 78000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 77500000000,
+   "upper": 78000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 77500000000,
+   "upper": 78000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 77500000000,
+   "upper": 78000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 77500000000,
+   "upper": 78000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 78000000000,
+   "upper": 79000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 78000000000,
+   "upper": 79000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 78000000000,
+   "upper": 79000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 78000000000,
+   "upper": 79000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 78000000000,
+   "upper": 79000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 79000000000,
+   "upper": 81000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 79000000000,
+   "upper": 81000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 79000000000,
+   "upper": 81000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 79000000000,
+   "upper": 81000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 79000000000,
+   "upper": 81000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 81000000000,
+   "upper": 84000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 81000000000,
+   "upper": 84000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 81000000000,
+   "upper": 84000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 81000000000,
+   "upper": 84000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 81000000000,
+   "upper": 84000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 81000000000,
+   "upper": 84000000000,
+   "name": "Space Research",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 84000000000,
+   "upper": 86000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 84000000000,
+   "upper": 86000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 84000000000,
+   "upper": 86000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 84000000000,
+   "upper": 86000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 86000000000,
+   "upper": 92000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 86000000000,
+   "upper": 92000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 86000000000,
+   "upper": 92000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 92000000000,
+   "upper": 94000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 92000000000,
+   "upper": 94000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 92000000000,
+   "upper": 94000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 92000000000,
+   "upper": 94000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94000000000,
+   "upper": 94100000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94000000000,
+   "upper": 94100000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94000000000,
+   "upper": 94100000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94000000000,
+   "upper": 94100000000,
+   "name": "Space Research (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94100000000,
+   "upper": 95000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94100000000,
+   "upper": 95000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94100000000,
+   "upper": 95000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 94100000000,
+   "upper": 95000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 95000000000,
+   "upper": 100000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 95000000000,
+   "upper": 100000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 95000000000,
+   "upper": 100000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 95000000000,
+   "upper": 100000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 95000000000,
+   "upper": 100000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 95000000000,
+   "upper": 100000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 100000000000,
+   "upper": 102000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 100000000000,
+   "upper": 102000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 100000000000,
+   "upper": 102000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 102000000000,
+   "upper": 105000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 102000000000,
+   "upper": 105000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 102000000000,
+   "upper": 105000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 105000000000,
+   "upper": 109500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 105000000000,
+   "upper": 109500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 105000000000,
+   "upper": 109500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 105000000000,
+   "upper": 109500000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 109500000000,
+   "upper": 111800000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 109500000000,
+   "upper": 111800000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 109500000000,
+   "upper": 111800000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 111800000000,
+   "upper": 114250000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 111800000000,
+   "upper": 114250000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 111800000000,
+   "upper": 114250000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 111800000000,
+   "upper": 114250000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 114250000000,
+   "upper": 116000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 114250000000,
+   "upper": 116000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 114250000000,
+   "upper": 116000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 116000000000,
+   "upper": 119980000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 116000000000,
+   "upper": 119980000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 119980000000,
+   "upper": 122250000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 119980000000,
+   "upper": 122250000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 119980000000,
+   "upper": 122250000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 122250000000,
+   "upper": 123000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 122250000000,
+   "upper": 123000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 122250000000,
+   "upper": 123000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 122250000000,
+   "upper": 123000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 123000000000,
+   "upper": 130000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 123000000000,
+   "upper": 130000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 123000000000,
+   "upper": 130000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 123000000000,
+   "upper": 130000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 123000000000,
+   "upper": 130000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000000000,
+   "upper": 134000000000,
+   "name": "Earth Exploration-Satellite (active)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000000000,
+   "upper": 134000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000000000,
+   "upper": 134000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000000000,
+   "upper": 134000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 130000000000,
+   "upper": 134000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 134000000000,
+   "upper": 136000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 134000000000,
+   "upper": 136000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 134000000000,
+   "upper": 136000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 136000000000,
+   "upper": 141000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 136000000000,
+   "upper": 141000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 136000000000,
+   "upper": 141000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 136000000000,
+   "upper": 141000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 141000000000,
+   "upper": 148500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 141000000000,
+   "upper": 148500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 141000000000,
+   "upper": 148500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 141000000000,
+   "upper": 148500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148500000000,
+   "upper": 151500000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148500000000,
+   "upper": 151500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 148500000000,
+   "upper": 151500000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 151500000000,
+   "upper": 155500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 151500000000,
+   "upper": 155500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 151500000000,
+   "upper": 155500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 151500000000,
+   "upper": 155500000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 155500000000,
+   "upper": 158500000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 155500000000,
+   "upper": 158500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 155500000000,
+   "upper": 158500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 155500000000,
+   "upper": 158500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 155500000000,
+   "upper": 158500000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 158500000000,
+   "upper": 164000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 158500000000,
+   "upper": 164000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 158500000000,
+   "upper": 164000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 158500000000,
+   "upper": 164000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 164000000000,
+   "upper": 167000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 164000000000,
+   "upper": 167000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 164000000000,
+   "upper": 167000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 167000000000,
+   "upper": 174500000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 167000000000,
+   "upper": 174500000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 167000000000,
+   "upper": 174500000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 167000000000,
+   "upper": 174500000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174500000000,
+   "upper": 174800000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174500000000,
+   "upper": 174800000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174500000000,
+   "upper": 174800000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174800000000,
+   "upper": 182000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174800000000,
+   "upper": 182000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 174800000000,
+   "upper": 182000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 182000000000,
+   "upper": 185000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 182000000000,
+   "upper": 185000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 182000000000,
+   "upper": 185000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 185000000000,
+   "upper": 190000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 185000000000,
+   "upper": 190000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 185000000000,
+   "upper": 190000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 190000000000,
+   "upper": 191800000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 190000000000,
+   "upper": 191800000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 191800000000,
+   "upper": 200000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 191800000000,
+   "upper": 200000000000,
+   "name": "Inter-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 191800000000,
+   "upper": 200000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 191800000000,
+   "upper": 200000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 191800000000,
+   "upper": 200000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 191800000000,
+   "upper": 200000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 200000000000,
+   "upper": 202000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 200000000000,
+   "upper": 202000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 200000000000,
+   "upper": 202000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 202000000000,
+   "upper": 209000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 202000000000,
+   "upper": 209000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 202000000000,
+   "upper": 209000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 209000000000,
+   "upper": 217000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 209000000000,
+   "upper": 217000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 209000000000,
+   "upper": 217000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 209000000000,
+   "upper": 217000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217000000000,
+   "upper": 226000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217000000000,
+   "upper": 226000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217000000000,
+   "upper": 226000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217000000000,
+   "upper": 226000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 217000000000,
+   "upper": 226000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 226000000000,
+   "upper": 231500000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 226000000000,
+   "upper": 231500000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 226000000000,
+   "upper": 231500000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 231500000000,
+   "upper": 232000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 231500000000,
+   "upper": 232000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 231500000000,
+   "upper": 232000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 232000000000,
+   "upper": 235000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 232000000000,
+   "upper": 235000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 232000000000,
+   "upper": 235000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 232000000000,
+   "upper": 235000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000000,
+   "upper": 238000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000000,
+   "upper": 238000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 235000000000,
+   "upper": 238000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 238000000000,
+   "upper": 240000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 238000000000,
+   "upper": 240000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 238000000000,
+   "upper": 240000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 238000000000,
+   "upper": 240000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 238000000000,
+   "upper": 240000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 238000000000,
+   "upper": 240000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 240000000000,
+   "upper": 241000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 240000000000,
+   "upper": 241000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 240000000000,
+   "upper": 241000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 241000000000,
+   "upper": 248000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 241000000000,
+   "upper": 248000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 241000000000,
+   "upper": 248000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 241000000000,
+   "upper": 248000000000,
+   "name": "Radiolocation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 248000000000,
+   "upper": 250000000000,
+   "name": "Amateur-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 248000000000,
+   "upper": 250000000000,
+   "name": "Amateur",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 248000000000,
+   "upper": 250000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 250000000000,
+   "upper": 252000000000,
+   "name": "Earth Exploration-Satellite (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 250000000000,
+   "upper": 252000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 250000000000,
+   "upper": 252000000000,
+   "name": "Space Research (passive)",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 252000000000,
+   "upper": 265000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 252000000000,
+   "upper": 265000000000,
+   "name": "Mobile-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 252000000000,
+   "upper": 265000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 252000000000,
+   "upper": 265000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 252000000000,
+   "upper": 265000000000,
+   "name": "Radionavigation-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 252000000000,
+   "upper": 265000000000,
+   "name": "Radionavigation",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 265000000000,
+   "upper": 275000000000,
+   "name": "Fixed-Satellite",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 265000000000,
+   "upper": 275000000000,
+   "name": "Fixed",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 265000000000,
+   "upper": 275000000000,
+   "name": "Mobile",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 265000000000,
+   "upper": 275000000000,
+   "name": "Radio Astronomy",
+   "step": 100,
+   "db": 0
+  },
+  {
+   "lower": 275000000000,
+   "upper": 999000000000,
+   "name": "Not Allocated",
+   "step": 100,
+   "db": 0
+  }
+ ]
+}

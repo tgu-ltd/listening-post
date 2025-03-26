@@ -1,0 +1,29 @@
+<section>
+    <h2>Frequency Allocation Table</h2>
+
+    <div class="container">
+        <textarea class="scanner_settings_textarea" readonly id="fatMapping" placeholder="FAT will appear here..." style="height: 400px;"></textarea>
+    </div>    
+    <div>
+        <button id="restoreFullFAT">Use Full</button>
+        <button id="restoreProtoFAT">Use Proto</button>
+        <button id="restoreCustomFAT">Use Custom </button>
+        <br />
+        <button id="downloadFullFAT">Download Full</button>
+        <button id="downloadProtoFAT">Download Proto</button>
+        <button id="uploadNewFAT">Upload Custom</button>
+        <input readonly enabled="disabled" type="file" id="newFatMapping" name="filename" style="width: 210px;">
+        <br /> 
+    </div>
+    <hr />
+</section>
+
+<!-- 
+<section>
+    <h2>System Settings</h2>
+</section>
+-->
+
+<script src="/static/fat.js"></script>
+
+
