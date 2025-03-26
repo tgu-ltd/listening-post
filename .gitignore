@@ -1,7 +1,6 @@
 deploy/*
 work/*
 config
-stage2/config
 postrun.sh
 SKIP
 SKIP_IMAGES
