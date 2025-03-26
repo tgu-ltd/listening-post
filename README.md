@@ -14,6 +14,7 @@ This branch is used to build a [Raspberry Pi Zero Operating System](https://www.
 ## How To Build the OS System
 
 * Edit `stage2/config` file with preferred variables. See [pi-gen readme](https://github.com/RPi-Distro/pi-gen) for more details
+  * This is where all the credentails for the OS go such as passwords and system name.
 * Edit `stage-vars.sh` file for ip addresses and credentials for access point
 * At a terminal run `sudo ./build-docker.sh -c stage2/config`
 * Transfer the image to a SD card, i.e `dd if=./deploy/year-month-day-name.img of=/dev/sdXXX status=progress bs=4M`
