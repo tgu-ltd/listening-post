@@ -4,30 +4,16 @@
  "updated": "24 March 2025",
  "License": "MIT",
  "sample_rate": 2048000,
- "read_samples": 1024,
+ "read_samples": 512,
  "sdr_min_hz": 24000000,
  "sdr_max_hz": 1700000000,
  "gain": "auto",
  "bands": [
   {
-   "name": "ATC-118-122",
-   "lower": 118000000,
-   "upper": 122000000,
-   "step": 500000,
-   "db": 0
-  },
-  {
-   "name": "ATC-123-126",
-   "lower": 122000000,
-   "upper": 126000000,
-   "step": 100000,
-   "db": 0
-  },
-  {
-   "name": "Radio2",
-   "lower": 89000000,
-   "upper": 90000000,
-   "step": 100000,
+   "name": "FMStations",
+   "lower": 88000000,
+   "upper": 103000000,
+   "step":    1000000,
    "db": 0
   }
  ]

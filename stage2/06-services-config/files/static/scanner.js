@@ -1,6 +1,11 @@
 let statusIntervalId;
+let updateIntervalId;
 let start_button = document.getElementById("scannerStart");
 let status_area = document.getElementById("scanStatus");
+let graph_update = document.getElementById("");
+
+
+
 
 
 function convertToIntegerList(input) {
@@ -45,6 +50,7 @@ async function pollServiceStatus() {
         console.error("Error fetching service status:", error);
     }
 }
+
 
 
 document.getElementById("scannerStart").addEventListener("click", () => {
@@ -196,6 +202,15 @@ async function showScanPlot() {
 document.getElementById("showCurrentAnalysis").addEventListener("click", showScanPlot);
 
 
+
+
+document.getElementById("autoUpdate").addEventListener("change", function() {
+    if (this.checked) {
+        updateIntervalId = setInterval(showScanPlot, 1000);
+    } else {
+        clearInterval(updateIntervalId);
+    }
+});
 
 
 

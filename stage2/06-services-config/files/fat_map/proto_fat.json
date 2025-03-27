@@ -13,35 +13,35 @@
       "name": "CB",
       "lower": 26965000,
       "upper": 27405000,
-      "step":  10000,
+      "step":     10000,
       "db": 0
     },
     {
       "name": "Aviation",
       "lower": 118000000,
       "upper": 136000000,
-      "step":  100000,
+      "step":      10000,
       "db": 0
     },
     {
       "name": "Amateur",
       "lower": 144000000,
       "upper": 146000000,
-      "step": 10000,
+      "step":      10000,
       "db": 0
     },
     {
       "name": "BusinessVHF",
       "lower": 163000000,
       "upper": 168000000,
-      "step": 100000,
+      "step":     100000,
       "db": 0
     },
     {
       "name": "WalkieTalkies",
       "lower": 446000000,
       "upper": 446200000,
-      "step": 10000,
+      "step":      10000,
       "db": 0
     }
   ]
