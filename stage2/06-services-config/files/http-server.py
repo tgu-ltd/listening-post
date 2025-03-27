@@ -56,7 +56,7 @@ class Handler(BaseHTTPRequestHandler):
         'scanner_download_full_fat': {"cmd": SCANNER.download_full_fat},
         'scanner_download_proto_fat': {"cmd": SCANNER.download_proto_fat},
         'system_one_second': {"cmd": SYSTEM.one_second},
-        # 'system_one_minute': {"cmd": SYSTEM.one_minute},
+        'system_one_minute': {"cmd": SYSTEM.one_minute},
     }
 
     ENV = Environment(loader=FileSystemLoader('templates'))

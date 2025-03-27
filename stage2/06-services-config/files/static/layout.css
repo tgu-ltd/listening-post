@@ -115,3 +115,7 @@ select {
     width: 120px;
     height: 25px;
 }
+
+td {
+    min-width: 100px;
+}
