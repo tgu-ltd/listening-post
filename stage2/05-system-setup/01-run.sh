@@ -73,17 +73,16 @@ fi
 
 cat << EOF > $FILE
 [connection]
-id=wlan0
-#uuid=d7761840-f729-11ec-b939-1252ac150002
+id=$HOSTAPD_IF
 type=wifi
-interface-name=wlan0
+interface-name=$HOSTAPD_IF
 autoconnect=true
 
 [wifi]
-ssid=stratum1
+ssid=$HOSTAPD_NAME
 mode=ap
 band=bg
-channel=6
+channel=$HOSTAPD_CHANNEL
 
 [wifi-security]
 key-mgmt=wpa-psk
@@ -96,7 +95,6 @@ address=$DNSMASQ_IP/24
 [ipv6]
 method=disabled
 EOF
-
 
 
 ###
@@ -119,8 +117,8 @@ cat << EOF > $FILE
 listen-address=127.0.0.1,$DNSMASQ_IP
 resolv-file=/etc/resolv.conf
 dhcp-authoritative
-interface=wlan0
-except-interface=eth0
+interface=$HOSTAPD_IF
+except-interface=$ETHERNET_IP
 addn-hosts=/etc/hosts
 bind-interfaces
 domain-needed

@@ -1,9 +1,9 @@
 let secondIntervalId = null
 // let minuteIntervalId = null
 
-async function oneSecondPoll() {
+async function tenSecondPoll() {
     try {
-        const response = await fetch("/apiv1/system_one_second");
+        const response = await fetch("/apiv1/system_ten_second");
         if (!response.ok) {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }
@@ -21,9 +21,9 @@ async function oneSecondPoll() {
 
 
 
-async function oneMinutePoll() {
+async function servicesPoll() {
     try {
-        const response = await fetch("/apiv1/system_one_minute");
+        const response = await fetch("/apiv1/system_services_poll");
         if (!response.ok) {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }
@@ -36,7 +36,7 @@ async function oneMinutePoll() {
         document.getElementById("td_gps_sats").textContent = status.data.sats;
         document.getElementById("td_ntp_refs").innerHTML =  status.data.ntp.join("<br />");;
     } catch (error) {
-        clearInterval(minuteIntervalId);
+        clearInterval(servicesIntervalId);
         //console.error("Error fetching service status:", error);
     }
 }
@@ -44,15 +44,14 @@ async function oneMinutePoll() {
 
 
 window.onload = function() {
-    oneSecondPoll()
-    oneMinutePoll()
-    secondIntervalId = setInterval(oneSecondPoll, 1000);
-    minuteIntervalId = setInterval(oneMinutePoll, 60000);
-    
-  };
+    tenSecondPoll()
+    servicesPoll()
+    secondIntervalId = setInterval(tenSecondPoll, 10000);
+    servicesIntervalId = setInterval(servicesPoll, 30000);
+};
 
 
   window.addEventListener("beforeunload", () => {
     clearInterval(secondIntervalId);
-    clearInterval(minuteIntervalId);
+    clearInterval(servicesIntervalId);
 });

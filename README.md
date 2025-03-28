@@ -34,3 +34,44 @@ Wollah! a Pi Zero operating system capable of listening to RF signals with milli
 ## Boot up notes
 
 When the system first boots it will resize the hard disk and then reboot.
+
+## Connecting and IP Addresses
+
+### Wifi
+
+To connect via wifi use the credentials in the `stage2/stage-vars.sh` file such as SSID, Password and IP Address.
+Once connected via wifi you will then be able to ssh into the device and provide the user name and password contained in the `stage2/config` file.
+
+### Ethernet
+
+If connecting via ethernet you will have to consult your IP address providing system to find out the address of the device.
+Once connected via ethernet you will then be able to ssh into the device and provide the user name and password contained in the `stage2/config` file.
+
+## Scanning
+The radio frequency scanning is done via a web interface and can be accessed by entering http://<IP_ADDRESS> in a browser. See the wifi or ethernet sections above for obtaining an IP address.
+
+The web interface is still under development and a more detailed description will be given when it becomes more stable.
+But the basic idea is to use a JSON file, which can be uploaded via the FAT page, to configure the frequencies to be scanned. This will include the start, stop, step and db levels. The scanning will be done on a 'Scanning' page which will graph the results.
+
+
+## NTP Service
+
+You can test the stratum1 NTP service from a linux terminal by issuing the following command ...
+
+```bash
+ntpq -p <IP ADDRESS>
+
+remote                                   refid      st t when poll reach   delay   offset   jitter
+=======================================================================================================
+*SHM(1)                                  .PPS0.           0 l    8   64  377   0.0000  -0.0266   0.0048
+xSHM(0)                                  .GPS0.           0 l    7   64  377   0.0000 -133.020   0.3808
+xPPS(0)                                  .PPS0.           0 l    6   16  377   0.0000  -0.0261   0.0005
+```
+
+## GPS monitoring
+
+GPS information can be obtained by ssh'ing into the device and issuing the `gpsmon` command at the terminal. Basic GPS information can be seen on the web interface.
+
+## Routing
+
+The device will act as a wifi router if the ethernet is plugged in and connected to the internet.
