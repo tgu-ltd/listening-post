@@ -38,15 +38,6 @@ Wollah! a Pi Zero operating system capable of listening to RF signals with milli
 When the system first boots it will resize the hard disk and then reboot.
 
 
-## Services
-
-Once booted the following services are available
-
-* Stratum1 NTPSec server
-* Wifi access point and router
-* Web service
-
-
 ## Connecting and IP Addresses
 
 ### Wifi
