@@ -95,9 +95,12 @@ A web service exists on port 80 that allows the configuring and scanning of radi
 
 Screen shots:
 
-**Image** ![Home page](https://www.tgu-ltd.uk/img/rfpost_home_page.png)
+**Home Page**
+![Home page](https://www.tgu-ltd.uk/img/rfpost_home_page.png)
 
-**Image** ![FAT page](https://www.tgu-ltd.uk/img/rfpost_fat_page.png)
+**FAT Page**
+![FAT page](https://www.tgu-ltd.uk/img/rfpost_fat_page.png)
 
-**Image** ![Scan page](https://www.tgu-ltd.uk/img/rfpost_scan_page.png)
+**Scan Page**
+![Scan page](https://www.tgu-ltd.uk/img/rfpost_scan_page.png)
 
