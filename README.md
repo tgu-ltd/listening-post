@@ -31,9 +31,21 @@ Wollah! a Pi Zero operating system capable of listening to RF signals with milli
 * [NooElec Nano SDR: Amazon](https://www.amazon.co.uk/gp/product/B01B4L48QU/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&(psc=1))
 * [RP-SMA to w.FL / MHF3: Amazon](https://www.amazon.co.uk/TUOLNK-RP-SMA-Coaxial-Antenna-Extension/dp/B0B9RXDLNN/ref=sr_1_1_sspa?crid=1KKU7DIID3CRR&dib=eyJ2IjoiMSJ9.KJDSiFJ-nop6N45mMRKlPI4Op8xYWUON40kLIp09oEvoK4zwYPbR3awLxOM87ZQ9Zf_wTRgB8hnWrFCqgTebE1EZ4EbEnoNUhO3V_gZzpPduU4LH2gUZpYQsDpUJQz4CNnqimkNUr6vFsQi5UlnxY29xK7dxX6HmeINlhm4qfgsaqmSm6D1MhTEEVeNia49dn5hqkY2C0nvUYQ9OWZUF-F3-EAFY5AMTXtdQEJUngmozcLfCPdXeM1_mikvBePZT8wcaWWoQAaRcbVb6zbve0zr62_2leIvQ3ZcGXCyLksQ.iI-XuoRPIpPCO0yuQBnxIgz6deFjaykYV5fPVQ9XI9o&dib_tag=se&keywords=RP-SMA+to+w.FL&qid=1742574783&s=electronics&sprefix=rp-sma+to+w.fl%2Celectronics%2C744&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 
+
+
 ## Boot up notes
 
 When the system first boots it will resize the hard disk and then reboot.
+
+
+## Services
+
+Once booted the following services are available
+
+* Stratum1 NTPSec server
+* Wifi access point and router
+* Web service
+
 
 ## Connecting and IP Addresses
 
@@ -48,6 +60,7 @@ If connecting via ethernet you will have to consult your IP address providing sy
 Once connected via ethernet you will then be able to ssh into the device and provide the user name and password contained in the `stage2/config` file.
 
 ## Scanning
+
 The radio frequency scanning is done via a web interface and can be accessed by entering http://<IP_ADDRESS> in a browser. See the wifi or ethernet sections above for obtaining an IP address.
 
 The web interface is still under development and a more detailed description will be given when it becomes more stable.
@@ -74,4 +87,17 @@ GPS information can be obtained by ssh'ing into the device and issuing the `gpsm
 
 ## Routing
 
-The device will act as a wifi router if the ethernet is plugged in and connected to the internet.
+The device will act as a wifi router if a  usb->ethernet adapter is plugged in and connected to the internet
+
+## Web Service
+
+A web service exists on port 80 that allows the configuring and scanning of radio frequencies.
+
+Screen shots:
+
+**Image** ![Home page](https://www.tgu-ltd.uk/img/rfpost_home_page.png)
+
+**Image** ![FAT page](https://www.tgu-ltd.uk/img/rfpost_fat_page.png)
+
+**Image** ![Scan page](https://www.tgu-ltd.uk/img/rfpost_scan_page.png)
+
