@@ -44,10 +44,10 @@ TARGET_HOSTNAME="rfpost"
 #TIMEZONE_DEFAULT="Europe/London"
 
 #(Default: pi)
-#FIRST_USER_NAME=
+#FIRST_USER_NAME=)
 
 # (Default: unset)
-FIRST_USER_PASS="rfpost@dev!01"
+FIRST_USER_PASS="rfpost01"
 
 # (Default: 0)
 DISABLE_FIRST_BOOT_USER_RENAME=1
