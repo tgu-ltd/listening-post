@@ -1,5 +1,5 @@
 # (Default: raspios-$RELEASE-$ARCH, for example: raspios-bookworm-armhf)
-#IMG_NAME=""
+IMG_NAME="RFPostImage"
 
 # (Default: Raspberry Pi reference)
 #PI_GEN_RELEASE=
@@ -32,23 +32,22 @@ DEPLOY_COMPRESSION=".img"
 #LOCALE_DEFAULT=
 
 # (Default: 'raspberrypi' )
-#TARGET_HOSTNAME=""
+TARGET_HOSTNAME="rfpost"
 
 # (Default: 'gb' )
-# KEYBOARD_KEYMAP="Generic 105-key PC"
+#KEYBOARD_KEYMAP=""
 
 # (Default: 'English (UK)' )
 # KEYBOARD_LAYOUT=
-KEYBOARD_LAYOUT="English (UK)"
 
 #(Default: 'Europe/London' )
-TIMEZONE_DEFAULT="Europe/London"
+#TIMEZONE_DEFAULT="Europe/London"
 
 #(Default: pi)
 #FIRST_USER_NAME=
 
 # (Default: unset)
-#FIRST_USER_PASS=""
+FIRST_USER_PASS="rfpost@dev!01"
 
 # (Default: 0)
 DISABLE_FIRST_BOOT_USER_RENAME=1
@@ -70,7 +69,4 @@ PUBKEY_SSH_FIRST_USER=1
 
 
 # (Default: stage*)
-#STAGE_LIST="stage0 stage1 stage2"
-
-
-
+STAGE_LIST="stage0 stage1 stage2"
