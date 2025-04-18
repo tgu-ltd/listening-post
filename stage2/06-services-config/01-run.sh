@@ -189,20 +189,6 @@ echo "shorewall written"
 
 
 ###
-### ENABLE SERVICES
-###
-on_chroot << EOF
-systemctl enable gpsd
-systemctl enable ntpsec
-systemctl enable shorewall
-systemctl enable rc-local
-EOF
-echo "Services Enabled"
-
-
-
-
-###
 ### First Boot Service
 ###   * Resize root file sytem
 ###   * Kills whiptail
@@ -353,3 +339,14 @@ chmod +x $FILE
 
 
 
+###
+### ENABLE SERVICES
+###
+on_chroot << EOF
+systemctl enable gpsd
+systemctl enable ntpsec
+systemctl enable shorewall
+systemctl enable rc-local
+systemctl enable $WWWRF
+EOF
+echo "Services Enabled"

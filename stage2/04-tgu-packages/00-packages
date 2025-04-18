@@ -13,3 +13,10 @@ libopenblas-dev
 rtl-sdr
 ffmpeg
 sqlite
+socat
+
+# For rtl-power-fftw
+#libfftw3-dev
+#libtclap-dev
+#librtlsdr-dev
+#pkg-config
