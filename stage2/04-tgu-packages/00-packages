@@ -11,6 +11,8 @@ cmake
 libusb-1.0-0-dev
 libopenblas-dev
 rtl-sdr
+alsa-utils
+sox
 ffmpeg
 sqlite
 socat

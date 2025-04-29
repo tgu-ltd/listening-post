@@ -36,6 +36,15 @@ else
 fi
 
 
+
+###
+###  Make boot partition more resilient
+###
+FSTAB="${ROOTFS_DIR}/etc/fstab"
+sed -i 's|\(/boot/firmware[[:space:]]\+vfat[[:space:]]\+\)defaults|\1defaults,noatime,flush|' $FSTAB
+
+
+
 ###
 ###  Eth0
 ###
@@ -43,6 +52,8 @@ FILE="${ROOTFS_DIR}/etc/NetworkManager/system-connections/eth0.nmconnection"
 if [ -e "$FILE" ]; then
     touch $FILE
 fi
+
+
 
 
 cat << EOF > $FILE
